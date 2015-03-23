@@ -1,0 +1,9 @@
+# Untracked files:
+
+.sass-cache/
+node_modules/
+side_admin/core
+side_admin/config
+side_admin/blog
+side_admin/resources
+side_admin/setup
