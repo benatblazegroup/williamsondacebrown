@@ -12,8 +12,31 @@
 <section class="preheader">
   <div class="container">
     <div class="phone">
-      <i class="fa fa-phone"></i>020 8886 4407
+      <i class="fa fa-phone"></i> 020 8886 4407
     </div>
   </div>
 </section>
 <header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="/williamsondacebrown/assets/img/wdb-logo.svg"></a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Residential</a></li>
+          <li><a href="#about">Commercial services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+</header>
