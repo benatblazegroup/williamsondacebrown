@@ -4,8 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon.png">
   <link rel="icon" href="assets/favicon.ico" />
-  <title><?php echo $page_title; ?></title>
-  <meta name="description" content="<?php echo $meta_desc;?>">
+  <title><?php perch_layout_var('title'); ?></title>
+  <meta name="description" content="<?php perch_layout_var('desc'); ?>">
   <?php perch_get_css(); ?>
 </head>
 <body>

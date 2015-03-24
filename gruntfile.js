@@ -27,7 +27,8 @@ module.exports = function(grunt) {
   // Load the plugin that provides the tasks.
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
-
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  
   // Default task(s).
   grunt.registerTask('default', [
     'uglify',

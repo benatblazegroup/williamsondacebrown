@@ -1,0 +1,43 @@
+@media screen and (min-width: 581px) {
+  .grey-banner .container img {
+    margin: 1em 1%;
+    max-width: 23%;
+
+    &:first-child {
+      margin-left:0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+  }
+  .navbar-collapse {
+    padding: 0;
+  }
+  .navbar .container {
+    padding-right: 0px;
+  }
+  #navbar {
+    margin-top: 40px;
+  }
+  .button-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .button-row .btn {
+    margin: 10px;
+  }
+  .btn-block {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #navbar {
+    background-color: $ocean;
+  }
+}

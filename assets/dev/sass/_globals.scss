@@ -1,0 +1,67 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: $font;
+  font-weight: 400;
+}
+body {
+  line-height: 1.8em;
+}
+h4 {
+  text-transform: uppercase;
+}
+ul {
+  padding-left: 0;
+}
+.banner {
+  padding: 40px 0;
+}
+  .banner h1, .banner p {
+    margin-bottom: 30px;
+  }
+  .grey-banner {
+    background-color: $light-grey;
+  }
+  .grey-banner h1 {
+    display: inline-block;
+    color: $olive;
+    margin: 0;
+  }
+    .breadcrumb li a {
+      color: $olive;
+    }
+  .olive-banner {
+    background-color: $olive;
+    color: white;
+  }
+  .footer-top {
+    background-color: $grey;
+    color: white;
+  }
+.btn {
+  border-radius: 0;
+  padding: 10px 40px;
+}
+  .btn-olive {
+    color: $grey;
+    border-color: $grey;
+    background-color: #e4e7dd;
+
+    &:hover, &:active {
+      background-color: $forest
+    }
+  }
+  .btn-block {
+    padding: 20px 10px 10px;
+    text-align: center;
+  }

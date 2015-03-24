@@ -1,0 +1,61 @@
+.preheader {
+  padding: 3px 0;
+  color: white;
+  background-color: $forest;
+}
+.preheader .phone {
+  float: right;
+}
+.preheader .phone i {
+  color: $grey;
+}
+.navbar-toggle {
+  margin-top: 42px;
+}
+  .nav > li > a {
+      color: $grey;
+
+  &:hover, &:focus {
+      text-decoration: none;
+      color: $olive;
+      background-color: #fff;
+    }
+  }
+.footer-top .container {
+  padding: 0 8em;
+  color: $light-grey;
+}
+.footer-top img {
+  padding: 40px 40px 40px 0;
+}
+footer h4 {
+  padding-bottom: 16px;
+}
+footer a, footer i {
+  color: $olive;
+}
+footer ul {
+  list-style-type: none;
+}
+ul.linkslist {
+  line-height: 24px;
+}
+ul.getintouch {
+  padding-left: 2em;
+  text-indent: -1em;
+  line-height: 28px;
+}
+ul.getintouch i {
+  margin-right: 10px;
+}
+.footer-bottom {
+  background-color: $ocean;
+  color: white;
+}
+.footer-bottom li a {
+  color: white;
+
+  &:hover, &:active {
+    color: $grey;
+  }
+}

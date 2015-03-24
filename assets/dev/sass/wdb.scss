@@ -1,43 +1,14 @@
+$font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$grey: #646568;
+$light-grey: #e3e3e4;
+$olive: #9fa88b;
+$ocean: #5d8a8e;
+$forest: #7a8e8e;
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import "_bootstrap";
 @import "_font-awesome";
-
-$font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$grey: #646568;
-$olive: #9fa88b;
-$ocean: #9eaf9f;
-$forest: #7a8e8e;
-
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: $font;
-}
-.preheader {
-  padding: 3px 0;
-  color: white;
-  background-color: $forest;
-}
-.preheader .phone {
-  float: right;
-}
-.preheader .phone i {
-  color: $grey;
-}
-.navbar-nav {
-  float: right;
-}
-.nav > li > a {
-    color: $grey;
-}
-.nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    color: $olive;
-    background-color: #fff;
-}
+@import "_globals";
+@import "_locals";
+@import "_animations";
+@import "mq";
