@@ -9,11 +9,43 @@
   <?php perch_get_css(); ?>
 </head>
 <body>
-  <div class="preheader"></div>
-  <section class="title container">
-    <section class="gutter-left"></section>
-    <section class="central-content">
-      <h1><a href="http://deliciousreverie.co.uk">Delicious Reverie</a></h1>
-    </section>
-    <section class="sidebar-right"></section>
+    <!-- <div class="preheader"></div> -->
+  <!-- <section class="title container">
+    <nav class="main-nav">
+      <?php perch_pages_navigation(array(
+          'levels'=>1
+        ));
+      ?>
+    </nav>
+  </section> -->
+  <section class="preheader">
+    <div class="container">
+      <div class="phone">
+        <i class="fa fa-phone"></i> 020 8886 4407
+      </div>
+    </div>
   </section>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="/williamsondacebrown/assets/img/wdb-logo.svg"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="residential.php">Residential</a></li>
+            <li><a href="commercial.php">Commercial services</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </header>

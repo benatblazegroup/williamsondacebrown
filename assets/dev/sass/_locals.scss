@@ -13,14 +13,18 @@
   margin-top: 42px;
 }
   .nav > li > a {
-      color: $grey;
+      color: white;
 
   &:hover, &:focus {
       text-decoration: none;
       color: $olive;
-      background-color: #fff;
+      background-color: white;
     }
   }
+.footer-top {
+  background-color: $grey;
+  color: white;
+}
 .footer-top .container {
   padding: 0 8em;
   color: $light-grey;
@@ -52,10 +56,13 @@ ul.getintouch i {
   background-color: $ocean;
   color: white;
 }
-.footer-bottom li a {
+.footer-bottom ul li a {
   color: white;
 
   &:hover, &:active {
     color: $grey;
   }
+}
+.team-feature img {
+  width: 75%;
 }

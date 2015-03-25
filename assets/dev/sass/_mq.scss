@@ -1,3 +1,8 @@
+@media screen and (max-width: 767px) {
+  #navbar {
+    background-color: $ocean;
+  }
+}
 @media screen and (min-width: 581px) {
   .grey-banner .container img {
     margin: 1em 1%;
@@ -24,6 +29,9 @@
   #navbar {
     margin-top: 40px;
   }
+  .nav > li > a {
+      color: $grey;
+  }
   .button-block {
     display: flex;
     flex-direction: row;
@@ -35,9 +43,12 @@
   .btn-block {
     width: 20%;
   }
-}
-@media screen and (max-width: 767px) {
-  #navbar {
-    background-color: $ocean;
+  .team-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer .links {
+    padding-left: 80px;
   }
 }

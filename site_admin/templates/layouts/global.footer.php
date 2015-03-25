@@ -7,7 +7,7 @@
         <a href="#" title="about us">Read more <i class="fa fa-chevron-right"></i></a>
         <img src="/williamsondacebrown/assets/img/rics.svg">
       </div>
-      <div class="Col-sm-4">
+      <div class="Col-sm-4 links">
         <h4>Links</h4>
         <ul class="linkslist">
           <li><a href="#" title="commercial">Commercial</a></li>
@@ -40,10 +40,10 @@
         <div class="container">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#about">Residential</a></li>
-              <li><a href="#about">Commercial services</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="residential.php">Residential</a></li>
+              <li><a href="commercial.php">Commercial services</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
       </nav>

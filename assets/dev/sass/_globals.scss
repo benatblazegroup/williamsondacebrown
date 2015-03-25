@@ -16,12 +16,16 @@ p {
 }
 body {
   line-height: 1.8em;
+  font-size: 12px;
 }
 h4 {
   text-transform: uppercase;
 }
 ul {
   padding-left: 0;
+}
+.img-circle {
+  border: 1px solid $light-grey;
 }
 .banner {
   padding: 40px 0;
@@ -44,10 +48,6 @@ ul {
     background-color: $olive;
     color: white;
   }
-  .footer-top {
-    background-color: $grey;
-    color: white;
-  }
 .btn {
   border-radius: 0;
   padding: 10px 40px;
@@ -64,4 +64,25 @@ ul {
   .btn-block {
     padding: 20px 10px 10px;
     text-align: center;
+  }
+  p.nomargin {
+    margin: 0;
+  }
+  p.light {
+    color: $even-lighter-grey;
+    margin-top: 0;
+  }
+.hentry h2 {
+  font-size: 12;
+  font-weight: 700;
+  margin: 0;
+}
+  .hentry h2 a {
+    color: black;
+  }
+  .entry-summary {
+    margin-top: 20px;
+  }
+  .sidebar a {
+    color: $even-lighter-grey;
   }
