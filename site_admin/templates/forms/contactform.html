@@ -17,9 +17,13 @@
       <perch:error for="message" type="required">Please add a message</perch:error>
   </div>
   <div>
-      <perch:input type="submit" id="submit" value="Send" />
+      <perch:input type="submit" id="submit" value="Send" class="btn btn-default btn-olive" />
   </div>
   <perch:success>
-      <perch:content id="success" type="textarea" label="Thank you message" textile="true" editor="markitup" />
+  <div class="contactsuccess">
+      <h3>Success!</h3>
+      <p>Your message was sent to us successfully. <br>
+      Thank you for contacting us, we'll get in touch with you soon.</p>
+    </div>
   </perch:success>
 </perch:form>

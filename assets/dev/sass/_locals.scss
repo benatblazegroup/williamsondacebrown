@@ -26,7 +26,7 @@
   color: white;
 }
 .footer-top .container {
-  padding: 0 8em;
+  padding: 0 7em;
   color: $light-grey;
 }
 .footer-top img {
@@ -37,6 +37,10 @@ footer h4 {
 }
 footer a, footer i {
   color: $olive;
+
+  &:hover, &:active {
+    color: $ocean;
+  }
 }
 footer ul {
   list-style-type: none;
@@ -44,12 +48,13 @@ footer ul {
 ul.linkslist {
   line-height: 24px;
 }
-ul.getintouch {
+ul.getintouch, ul.contact-info {
+  list-style-type: none;
   padding-left: 2em;
   text-indent: -1em;
   line-height: 28px;
 }
-ul.getintouch i {
+ul.getintouch i, ul.contact-info i {
   margin-right: 10px;
 }
 .footer-bottom {
@@ -65,4 +70,9 @@ ul.getintouch i {
 }
 .team-feature img {
   width: 75%;
+}
+.contactsuccess {
+  border: 6px solid $forest;
+  background-color: $light-grey;
+  padding: 1em 5%;
 }

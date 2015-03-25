@@ -80,5 +80,6 @@
     "Will send any text entered below plus the details the visitor submitted": "Will send any text entered below plus the details the visitor submitted",
     "Send autoreponse": "Send autoreponse",
     "Autoresponse Template": "Autoresponse Template",
-    "Response introduction text": "Response introduction text"
+    "Response introduction text": "Response introduction text",
+    "Form \/ Delete response": "Form \/ Delete response"
 }

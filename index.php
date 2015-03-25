@@ -5,10 +5,10 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <img src="/williamsondacebrown/assets/img/nothing.svg">
-    <img src="/williamsondacebrown/assets/img/nothing.svg">
-    <img src="/williamsondacebrown/assets/img/nothing.svg">
-    <img src="/williamsondacebrown/assets/img/nothing.svg">
+    <img id="one" src="/williamsondacebrown/assets/img/propcons.svg">
+    <img id="two" src="/williamsondacebrown/assets/img/charsurv.svg">
+    <img id="three" src="/williamsondacebrown/assets/img/manage.svg">
+    <img id="four" src="/williamsondacebrown/assets/img/citycen.svg">
   </div>
 </section>
 <section class="banner olive-banner">

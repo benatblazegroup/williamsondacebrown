@@ -18,6 +18,13 @@ body {
   line-height: 1.8em;
   font-size: 12px;
 }
+a {
+  color: $forest;
+
+  &:hover, &:focus {
+    color: $grey;
+  }
+}
 h4 {
   text-transform: uppercase;
 }
@@ -43,6 +50,9 @@ ul {
   }
     .breadcrumb li a {
       color: $olive;
+    }
+    .breadcrumb i {
+      color: #808184;
     }
   .olive-banner {
     background-color: $olive;
@@ -85,4 +95,27 @@ ul {
   }
   .sidebar a {
     color: $even-lighter-grey;
+  }
+  form label, form input, form textarea {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+  }
+  form label {
+    padding-top: 10px;
+  }
+  form textarea {
+    border: 1px solid #cecdcd;
+  }
+  .iframewrapper {
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+  }
+  .iframewrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100% !important;
+    height: 100% !important;
   }

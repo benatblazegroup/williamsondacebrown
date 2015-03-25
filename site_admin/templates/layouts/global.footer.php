@@ -21,7 +21,7 @@
       <div class="Col-sm-4">
         <h4>Get In Touch</h4>
         <ul class="getintouch">
-          <li><a href="mailto:info@wdbproperty.com"><i class="fa fa-envelope"></i> mail@wdbproperty.com</a></li>
+          <li><i class="fa fa-envelope"></i><a href="mailto:info@wdbproperty.com"> mail@wdbproperty.com</a></li>
           <li><i class="fa fa-phone"></i> 020 8886 4407</li>
           <li><i class="fa fa-home"></i> 22 Cannon Hill, Southgate<br>London N14 6BY</li>
           <br>
