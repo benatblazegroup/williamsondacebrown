@@ -22,18 +22,23 @@ class PerchFeather_wdbassets extends PerchFeather
     	{
     		$out = array();
 
-    		if (!$this->component_registered('jquery')) {
+        if (!$this->component_registered('jquery')) {
     			$out[] = $this->_script_tag(array(
     				'src'=>'/assets/js/jquery-1.11.2.min.js'
     			));
     			$this->register_component('jquery');
     		};
-
         if (!$this->component_registered('bootstrap')) {
           $out[] = $this->_script_tag(array(
             'src'=>'/assets/js/bootstrap.min.js'
           ));
           $this->register_component('bootstrap');
+        }
+        if (!$this->component_registered('wdb')) {
+          $out[] = $this->_script_tag(array(
+            'src'=>'/assets/js/wdb.js'
+          ));
+          $this->register_component('wdb');
         }
 
 
