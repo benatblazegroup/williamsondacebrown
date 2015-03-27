@@ -7,3 +7,5 @@ side_admin/config/
 side_admin/blog/
 side_admin/resources/
 side_admin/setup/
+
+siteadmin/config/config.php
