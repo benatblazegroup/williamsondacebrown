@@ -1,0 +1,12 @@
+
+<h3>Tags</h3>
+<ul>
+
+    <li><a href="archive.php?tag=barnet" rel="tag">Barnet (1)</a></li>
+
+    <li><a href="archive.php?tag=east-finchley" rel="tag">East Finchley (1)</a></li>
+
+    <li><a href="archive.php?tag=office" rel="tag">office (1)</a></li>
+
+    <li><a href="archive.php?tag=small-office" rel="tag">small office (1)</a></li>
+</ul>

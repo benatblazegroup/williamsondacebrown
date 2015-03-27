@@ -1,4 +1,4 @@
-<?php include('site_admin/runtime.php');
+<?php include('siteadmin/runtime.php');
   perch_layout('global.header', array(
     'title'=>'Our Team &#124; Our Team of Partners, Surveyors and others',
     'desc'=>'#',
@@ -20,22 +20,22 @@
     <p>As a general property practice, we provide our clients with a wide range of services. We provide holistic, reliable and expert advice for individuals and businesses seeking to achieve their property objectives.</p>
     <div class="team-block">
       <div class="team-feature">
-        <img class="img-circle" src="/williamsondacebrown/assets/img/dace.png">
+        <img class="img-circle" src="/assets/img/dace.png">
         <p class="nomargin"><strong>Katherine Dace RD BSc FRICS</strong></p>
         <p class="light">k.dace@williamsonanddace.com<br> 020 886 4407</p>
       </div>
       <div class="team-feature">
-        <img class="img-circle" src="/williamsondacebrown/assets/img/brown.png">
+        <img class="img-circle" src="/assets/img/brown.png">
         <p class="nomargin"><strong>Alexander Brown BSC (Hons) MRICS</strong><br> Partner</p>
         <p class="light">alex@williamsonanddace.com<br> 020 886 4407</p>
       </div>
       <div class="team-feature">
-        <img class="img-circle" src="/williamsondacebrown/assets/img/placeholder-male.png">
+        <img class="img-circle" src="/assets/img/placeholder-male.png">
         <p class="nomargin"><strong>Kristine Varnava</strong><br> Lettings Negotiator</p>
         <p class="light">kristina@williamsonanddace.com<br> 020 8920 2499</p>
       </div>
       <div class="team-feature">
-        <img class="img-circle" src="/williamsondacebrown/assets/img/placeholder-female.png">
+        <img class="img-circle" src="/assets/img/placeholder-female.png">
         <p class="nomargin"><strong>Thomas Dace BSC (Hons)</strong><br> Graduate Surveyor</p>
         <p class="light">tdace@williamsonanddace.com<br> 020 8920 2499</p>
       </div>

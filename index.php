@@ -1,14 +1,14 @@
-<?php include('site_admin/runtime.php');
+<?php include('siteadmin/runtime.php');
   perch_layout('global.header', array(
     'title'=>'WDB Property &#124; Williamson Dace Brown',
     'desc'=>'Property Consultants, Chartered Surveyors, Managing Agents in the City and Central London',
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <img id="one" src="/williamsondacebrown/assets/img/propcons.svg">
-    <img id="two" src="/williamsondacebrown/assets/img/charsurv.svg">
-    <img id="three" src="/williamsondacebrown/assets/img/manage.svg">
-    <img id="four" src="/williamsondacebrown/assets/img/citycen.svg">
+    <img id="one" src="/assets/img/propcons.svg">
+    <img id="two" src="/assets/img/charsurv.svg">
+    <img id="three" src="/assets/img/manage.svg">
+    <img id="four" src="/assets/img/citycen.svg">
   </div>
 </section>
 <section class="banner olive-banner">

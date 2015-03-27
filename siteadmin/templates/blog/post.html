@@ -1,0 +1,50 @@
+<article class="h-entry inline-container">
+	<div class="blog-single-img-container row">
+    <perch:if exists="main-image">
+        <div class="blog-main-img col-sm-8">
+            <img src="<perch:blog id="main-image" type="image" width="320" height="240" crop="true" label="Main Image" order="2" />" alt="<perch:blog id="postTitle" />" />
+        </div>
+    </perch:if>
+		<div class="col-sm-4">
+		<perch:if exists="image-2">
+				<div class="blog-img-2">
+						<img src="<perch:blog id="image-2" type="image" width="320" height="240" crop="true" label="Image 2" order="3" />" alt="<perch:blog id="postTitle" />" />
+				</div>
+		</perch:if>
+		<perch:if exists="image-3">
+				<div class="blog-img-3">
+						<img src="<perch:blog id="image-3" type="image" width="320" height="240" crop="true" label="Image 3" order="4" />" alt="<perch:blog id="postTitle" />" />
+				</div>
+		</perch:if>
+	</div>
+</div>
+<div class="clearfix"></div>
+<h1>
+			<a href="<perch:blog id="postURL" type="hidden" />" rel="bookmark" class="p-name">
+					<perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" />
+			</a>
+	</h1>
+	<div class="button-row">
+			<perch:if exists="pdf-download">
+					<div class="pdf-download">
+							<a href="<perch:blog id="image-3" type="file" label="PDF Download" order="5" />" alt="<perch:blog id="pdfDownload" />" /></a>
+					</div>
+			</perch:if>
+
+			</a>
+
+			<a class="btn btn-default btn-olive" href="#" title="Commercial">Commercial</a>
+
+	</div>
+	<perch:categories id="categories" set="blog" label="Categories" display-as="checkboxes">
+			<a href="archive.php?cat=<perch:category id="catSlug" type="slug" />" class="p-category">
+					<perch:category id="catTitle" type="text" />
+			</a>
+	</perch:categories>
+    <div class="description e-content">
+    	<perch:blog id="postDescHTML" type="textarea" label="Post" order="4" editor="markitup" markdown="true" size="xxl autowidth" required="true" />
+    </div>
+</article>
+
+<perch:blog id="excerpt" type="textarea" label="Excerpt" markdown="true" order="5" suppress="true" size="s" />
+<perch:blog id="image" type="image" width="50" height="50" crop="true" suppress="true" />
