@@ -6,7 +6,7 @@
 <section class="banner grey-banner">
   <div class="container">
     <h1>Contact Us</h1>
-    <ol class="breadcrumb pull-right">
+    <ol class="breadcrumb">
       <li><a href="index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li class="active">Contact us</li>
     </ol>

@@ -32,6 +32,9 @@
   .nav > li > a {
       color: $grey;
   }
+  .breadcrumb {
+    float: right;
+  }
   .button-block {
     display: flex;
     flex-direction: row;

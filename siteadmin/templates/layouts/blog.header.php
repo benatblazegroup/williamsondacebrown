@@ -30,11 +30,11 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="residential.php">Residential</a></li>
-          <li><a href="commercial.php">Commercial services</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li class="active"><a href="../index.php">Home</a></li>
+          <li><a href="../about.php">About</a></li>
+          <li><a href="../residential.php">Residential</a></li>
+          <li><a href="../commercial.php">Commercial services</a></li>
+          <li><a href="../contact.php">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
