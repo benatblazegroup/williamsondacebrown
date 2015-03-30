@@ -20,9 +20,8 @@
 </div>
 <div class="clearfix"></div>
 <h3>
-	<perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" />
-	<br>
-	<perch:blog id="price" type="text" label="Price" markdown="true" order="2" suppress="true" size="s" />
+	<perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" /> &ndash;
+	<perch:blog id="price" type="text" label="Price" markdown="true" order="2" size="s" />
 </h3>
 <div class="button-row">
 	<ul class="nav nav-tabs">
@@ -94,9 +93,7 @@
 		</div>
 	</div>
 	<div class="tab-pane" id="location">
-		<div class="iframewrapper">
-			<perch:blog id="locationmap" type="map" label="Location Map" markdown="true" order="16" suppress="true" width="400" height="300" zoom="15"/>
-		</div>
+		<perch:blog id="locationmap" type="map" label="Location Map" markdown="true" order="16" width="400" height="300" zoom="15"/>
 	</div>
 </div>
 </article>
