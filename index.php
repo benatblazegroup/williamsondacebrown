@@ -4,12 +4,18 @@
     'desc'=>'Property Consultants, Chartered Surveyors, Managing Agents in the City and Central London',
 )); ?>
 <section class="banner grey-banner">
-  <div class="container">
+  <div class="container hidden-xs">
     <img id="one" src="/assets/img/propcons.svg">
     <img id="two" src="/assets/img/charsurv.svg">
     <img id="three" src="/assets/img/manage.svg">
     <img id="four" src="/assets/img/citycen.svg">
   </div>
+  <div class="container visible-xs text-center">
+    <h1 class="text-center">Property Consultants<br>
+      Chartered Surveyors<br>
+      Managing Agents<br>
+      <hr>
+      <span class="text-grey">City &amp; Central</span></h1>
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
