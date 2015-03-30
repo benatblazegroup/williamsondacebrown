@@ -28,12 +28,12 @@ class PerchFeather_wdbassets extends PerchFeather
     			));
     			$this->register_component('jquery');
     		};
-        if (!$this->component_registered('bootstrap')) {
-          $out[] = $this->_script_tag(array(
-            'src'=>'/assets/js/bootstrap.min.js'
-          ));
-          $this->register_component('bootstrap');
-        }
+        // if (!$this->component_registered('bootstrap')) {
+        //   $out[] = $this->_script_tag(array(
+        //     'src'=>'/assets/js/bootstrap.min.js'
+        //   ));
+        //   $this->register_component('bootstrap');
+        // }
         if (!$this->component_registered('wdb')) {
           $out[] = $this->_script_tag(array(
             'src'=>'/assets/js/wdb.js'
