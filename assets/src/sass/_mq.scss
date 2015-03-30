@@ -41,21 +41,9 @@
   .breadcrumb {
     float: right;
   }
-  .button-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .button-row .btn {
-    margin: 10px;
-  }
-  .btn-block {
-    width: 20%;
-  }
-  .team-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  .well-about {
+    min-height: 210px;
+    padding-top:20%;
   }
   footer .links {
     padding-left: 80px;

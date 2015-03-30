@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       separator: ';',
     },
     dist: {
-      src: ['assets/src/js//bootstrap/dropdown.js', 'assets/src/js//bootstrap/tab.js', 'assets/src/js//bootstrap/collapse.js', 'assets/src/js//bootstrap/transition.js', 'assets/src/js//bootstrap/popover.js','src/wdb.js'],
+      src: ['assets/src/js/bootstrap/dropdown.js', 'assets/src/js/bootstrap/tab.js', 'assets/src/js/bootstrap/collapse.js', 'assets/src/js/bootstrap/transition.js', 'assets/src/js/bootstrap/popover.js','assets/src/js/wdb.js'],
       dest: 'assets/js/wdb.js',
     },
   },
