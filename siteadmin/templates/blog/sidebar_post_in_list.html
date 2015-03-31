@@ -1,0 +1,17 @@
+<perch:before>
+<div class="hfeed listing"></perch:before>
+    <div class="hentry">
+        <perch:if exists="image"><img src="<perch:blog id="main-image" type="image" crop="false" />" alt="<perch:blog id="postTitle" />" /></perch:if>
+        <br>
+        <br>
+
+        <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a>
+          <br>
+          <perch:blog id="price" type="text" label="Price" markdown="true" order="2" size="s" /></h2>
+        <div class="description entry-summary">
+          <perch:blog id="excerpt" type="textarea" textile="true" />
+        </div>
+    </div>
+<perch:after>
+<hr>
+</perch:after>

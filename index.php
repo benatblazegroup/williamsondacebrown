@@ -20,9 +20,8 @@
 <section class="banner olive-banner">
   <div class="container text-center">
     <h1>Residential &amp; Commercial sales and lettings</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut orci id ante adipiscing tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec sapien et dolor semper imperdiet. Pellentesque nunc urna, imperdiet vel massa vitae, molestie dapibus tellus. Integer vehicula risus diam, in vehicula dui dapibus sit amet. Suspendisse ac vulputate quam, mollis lacinia ipsum. Sed non neque nec nisl lobortis ullamcorper. Fusce tincidunt odio nulla, ultrices tincidunt est molestie gravida. Maecenas tincidunt porttitor nunc, vel hendrerit metus eleifend vitae.</p>
-    <p> Vestibulum facilisis eu augue sed congue. Quisque eu turpis nec augue gravida gravida. Vivamus consequat urna at dui porta, ac imperdiet tortor aliquam. Phasellus urna est, scelerisque vel imperdiet vel, consectetur nec mauris.</p>
-    <div class="button-row">
+    <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
+    <div class="home-buttons">
       <a class="btn btn-default btn-olive" href="#" title="Residential">Residential</a>
       <a class="btn btn-default btn-olive" href="#" title="Commercial">Commercial</a>
     </div>

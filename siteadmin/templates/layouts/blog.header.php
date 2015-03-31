@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" sizes="144x144" href="/assets/ico/apple-touch-icon.png">
   <link rel="icon" href="/assets/ico/favicon.ico" />
@@ -29,8 +29,9 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="../index.php">Home</a></li>
           <li><a href="../about.php">About</a></li>
+          <li><a href="../services.php">Services</a></li>
           <li><a href="../propertylisting/index.php">Listings</a></li>
-          <!-- <li><a href="../commercial.php">Commercial services</a></li> -->
+          <!-- <li><a href="../propertylisting/index.php">Listings</a></li> -->
           <li><a href="../contact.php">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->

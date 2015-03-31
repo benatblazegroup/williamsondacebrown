@@ -3,8 +3,8 @@
     <div class="container">
       <div class="Col-sm-4">
         <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut orci id ante adipiscing tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <a href="#" title="about us">Read more <i class="fa fa-chevron-right"></i></a>
+        <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
+        <a href="about.php" title="about us">Read more <i class="fa fa-chevron-right"></i></a>
         <img src="/assets/img/rics.svg">
       </div>
       <div class="Col-sm-4 links">
@@ -38,13 +38,14 @@
   <section class="footer-bottom">
       <nav>
         <div class="container">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="residential.php">Residential</a></li>
-              <li><a href="commercial.php">Commercial services</a></li>
-              <li><a href="contact.php">Contact</a></li>
-            </ul>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../index.php">Home</a></li>
+            <li><a href="../about.php">About</a></li>
+            <li><a href="../services.php">Services</a></li>
+            <li><a href="../propertylisting/index.php">Listings</a></li>
+            <!-- <li><a href="../propertylisting/index.php">Listings</a></li> -->
+            <li><a href="../contact.php">Contact</a></li>
+          </ul>
         </div>
       </nav>
   </section>
