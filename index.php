@@ -19,7 +19,7 @@
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
-    <h1>Residential &amp; Commercial sales and lettings</h1>
+    <h1 class="home-hero">Residential &amp; Commercial sales and lettings</h1>
     <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
     <div class="home-buttons">
       <a class="btn btn-default btn-olive" href="#" title="Residential">Residential</a>

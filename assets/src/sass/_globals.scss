@@ -47,6 +47,7 @@ ul, ol {
     background-color: $light-grey;
   }
   .grey-banner h1 {
+    font-weight: 300;
     display: inline-block;
     color: $olive;
     margin: 0;
@@ -96,11 +97,14 @@ ul, ol {
   .entry-summary {
     margin-top: 20px;
   }
-  .sidebar h3 {
+  .sidebar h3:first-child {
     margin-top: 0;
   }
   .sidebar a {
     color: $even-lighter-grey;
+  }
+  .nav-pills li a {
+    color: white!important;
   }
   form label, form input, form textarea {
     display: block;
@@ -137,4 +141,10 @@ ul, ol {
 }
 .content-container ul, .content-container ol {
   padding-left: 20px;
+}
+.nav-pills > li.active {
+  background-color: white;
+}
+.nav-pills > li.active a {
+  color: $grey!important;
 }

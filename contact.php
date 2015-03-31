@@ -15,7 +15,7 @@
 <section class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 sidebar">
         <h3>Use our form:</h3>
         <?php perch_form('contactform.html'); ?>
       </div>

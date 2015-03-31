@@ -33,6 +33,9 @@
     text-decoration: none;
   }
 }
+h1.home-hero {
+  font-size: 30px;
+}
 .footer-top {
   background-color: $grey;
   color: white;
@@ -81,6 +84,7 @@ ul.getintouch i, ul.contact-info i {
 }
 .team-feature img {
   width: 75%;
+  margin-bottom: 10px;
 }
 .contactsuccess {
   border: 6px solid $forest;

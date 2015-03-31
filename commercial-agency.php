@@ -14,58 +14,37 @@
   </div>
 </section>
 <section class="banner white-banner">
-  <div class="container content-container">
-    <div class="col-md-8">
-      <p>WDB have Chartered Surveyors and property professionals who assist our clients with a variety of commercial property requirements.</p>
-      <p>We act for a number of clients including charities, private individuals and property companies. We provide our clients with advice on a variety of different types of commercial property, looking for ways in which to maximise the profitability on their property portfolio. If you have a need for a qualified Chartered Surveyor or property consultant, we offer our clients the following services:</p>
-      <ul>
-        <li>Commercial property (sales and letting) </li>
-        <li>Office agency (sales and letting) </li>
-        <li>Retail agency (sales and letting) </li>
-        <li>Industrial agency (sales and letting) </li>
-        <li>Tenant representation </li>
-        <li>Commercial property strategy </li>
-        <li>Advice on surrender and renewal of lease </li>
-        <li>Rent reviews/ lease assignments </li>
-        <li>Law society leases</li>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 content-container">
+        <p>WDB have Chartered Surveyors and property professionals who assist our clients with a variety of commercial property requirements.</p>
+        <p>We act for a number of clients including charities, private individuals and property companies. We provide our clients with advice on a variety of different types of commercial property, looking for ways in which to maximise the profitability on their property portfolio. If you have a need for a qualified Chartered Surveyor or property consultant, we offer our clients the following services:</p>
+        <ul>
+          <li>Commercial property (sales and letting) </li>
+          <li>Office agency (sales and letting) </li>
+          <li>Retail agency (sales and letting) </li>
+          <li>Industrial agency (sales and letting) </li>
+          <li>Tenant representation </li>
+          <li>Commercial property strategy </li>
+          <li>Advice on surrender and renewal of lease </li>
+          <li>Rent reviews/ lease assignments </li>
+          <li>Law society leases</li>
+        </ul>
       </div>
-      <div class="col-sm-4">
-        <?php perch_layout('postlist.sidebar'); ?>
+      <div class="col-sm-4 sidebar">
+        <h3>Our Services:</h3>
+        <ul class="nav nav-stacked nav-pills">
+          <li class="active"><a href="commercial-agency.php">Commercial Agency</a></li>
+          <li><a href="residential-property.php">Residential Property</a></li>
+          <li><a href="buildings-insurance.php">Building Insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
+          <li><a href="professional-services.php">Professional Services</a></li>
+          <li><a href="propertylisting/">Property Listing</a></li>
+        </ul>
+        <?php perch_layout('contact.sidebar'); ?>
       </div>
     </div>
-    <div class="container">
-    <h3 class="text-center text-olive">Our Areas:</h3>
-    <div class="button-row">
-      <div class="col-sm-4">
-        <a class="well well-olive well-about text-center" href="../buildings-insurance.php">
-          <p><strong>Building Insurance</strong></p>
-        </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../professional-services.php">
-            <p><strong>Professional Services</strong></p>
-          </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../dilapidations-maintenance.php">
-            <p><strong>Dilapidations &amp; Maintenance</strong></p>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../residential-property.php">
-            <p><strong>Residential Property</strong></p>
-          </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../commercial-agency.php">
-            <p><strong>Commercial Agency</strong></p>
-          </a>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
+  </div>
 </section>
 <!-- /END THE FEATURETTES -->
 <?php perch_layout('global.footer'); ?>

@@ -21,19 +21,35 @@
       <hr>
       <h1>Our Team</h1>
       <div class="team-block row">
-        <div class="col-sm-6">
+        <div class="col-sm-3">
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/dace.png">
             <p><strong>Katherine Dace RD BSc FRICS</strong></p>
             <p class="light">Katherine Dace: Qualified in 1984, worked in central London becoming a partner in W. Goodchild &amp; company in 1987 before merging her practise with Peter Williamson in 1996. Specialising in property management and leasehold reform act valuations. </p>
           </div>
         </div>
-          <div class="col-sm-6">
+        <div class="col-sm-3">
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/brown.png">
             <br>
             <p><strong>Alexander Brown BSC (Hons) MRICS</strong></p>
             <p class="light">Alexander Brown: Qualified in 2006 as a rural surveyor in East Anglia. Alex moved to Williamson &amp; Dace in 2007 being promoted to partner in 2012. Specialising in property management and landlord and tenant issues. </p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="team-feature">
+            <img class="img-circle" src="/assets/img/placeholder-female.png">
+            <br>
+            <p><strong>Placeholder</strong></p>
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut orci id ante adipiscing tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="team-feature">
+            <img class="img-circle" src="/assets/img/placeholder-male.png">
+            <br>
+            <p><strong>Placeholder</strong></p>
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut orci id ante adipiscing tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
           </div>
         </div>
       </div>

@@ -15,47 +15,26 @@
 </section>
 <section class="banner white-banner">
   <div class="container">
-    <div class="col-md-8">
-      <p>Forming part of our complete service to landlords and tenants, Williamson &amp; Dace are regulated by the Financial Conduct Authority, in the conduct of insurance business.</p>
-      <p>To complement our service to clients, a close and long-standing agency has been developed with leading companies offering excellent building insurance policies for residential and commercial property. Valuations are provided where necessary. </p>
-      <p>We will be pleased to assist with your enquiries on property cover for your building, whether or not we are involved with letting and management of your building. We are confident that in many cases, we can match or improve upon your existing policy and premium.</p>
+    <div class="row">
+      <div class="col-md-8 content-container">
+        <p>Forming part of our complete service to landlords and tenants, Williamson &amp; Dace are regulated by the Financial Conduct Authority, in the conduct of insurance business.</p>
+        <p>To complement our service to clients, a close and long-standing agency has been developed with leading companies offering excellent building insurance policies for residential and commercial property. Valuations are provided where necessary. </p>
+        <p>We will be pleased to assist with your enquiries on property cover for your building, whether or not we are involved with letting and management of your building. We are confident that in many cases, we can match or improve upon your existing policy and premium.</p>
       </div>
-      <div class="col-sm-4">
-        <?php perch_layout('postlist.sidebar'); ?>
+      <div class="col-sm-4 sidebar">
+        <h3>Our Services:</h3>
+        <ul class="nav nav-stacked nav-pills">
+          <li><a href="commercial-agency.php">Commercial Agency</a></li>
+          <li><a href="residential-property.php">Residential Property</a></li>
+          <li class="active"><a href="buildings-insurance.php">Building Insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
+          <li><a href="professional-services.php">Professional Services</a></li>
+          <li><a href="propertylisting/">Property Listing</a></li>
+        </ul>
+        <?php perch_layout('contact.sidebar'); ?>
       </div>
     </div>
-    <div class="container">
-    <h3 class="text-center text-olive">Our Areas:</h3>
-    <div class="button-row">
-      <div class="col-sm-4">
-        <a class="well well-olive well-about text-center" href="../buildings-insurance.php">
-          <p><strong>Building Insurance</strong></p>
-        </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../professional-services.php">
-            <p><strong>Professional Services</strong></p>
-          </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../dilapidations-maintenance.php">
-            <p><strong>Dilapidations &amp; Maintenance</strong></p>
-          </a>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../residential-property.php">
-            <p><strong>Residential Property</strong></p>
-          </a>
-        </div>
-        <div class="col-sm-4">
-          <a class="well well-olive well-about text-center" href="../commercial-agency.php">
-            <p><strong>Commercial Agency</strong></p>
-          </a>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
+  </div>
 </section>
 <!-- /END THE FEATURETTES -->
 <?php perch_layout('global.footer'); ?>
