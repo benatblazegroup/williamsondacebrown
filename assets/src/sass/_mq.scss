@@ -1,6 +1,14 @@
 @media screen and (max-width: 767px) {
+  .navbar-header button {
+    margin: 0 auto;
+    float: none;
+    display: block;
+  }
+  .navbar-brand > img {
+    margin: 0 auto;
+}
   #navbar {
-    background-color: $ocean;
+    background-color: $forest;
   }
 }
 @media screen and (min-width: 581px) {
