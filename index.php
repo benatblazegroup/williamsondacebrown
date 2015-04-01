@@ -14,8 +14,7 @@
     <h1 class="text-center">Property Consultants<br>
       Chartered Surveyors<br>
       Managing Agents<br>
-      <hr>
-      <span class="text-grey">City &amp; Central</span></h1>
+      City &amp; Central</h1>
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
