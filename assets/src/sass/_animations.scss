@@ -1,13 +1,25 @@
 /* make keyframes that tell the start state and the end state of our object */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
+@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+
+.grey-banner .container .col-sm-3 {
+  position: relative;
+}
 .grey-banner img {
- opacity:0;  /* make things invisible upon start */
- -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
- -moz-animation:fadeIn ease-in 1;
- animation:fadeIn ease-in 1;
+  position:absolute;
+}
+.grey-banner img.bottom {
+ opacity:1;  /* make things invisible upon start */
+ -webkit-animation:fadeOut ease-in 2;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeOut ease-in 2;
+ animation:fadeOut ease-in 2;
+
+ -webkit-animation-direction: alternate;
+ -moz-animation-direction: alternate;
+ animation-direction: alternate;
+
 
  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
  -moz-animation-fill-mode:forwards;
@@ -17,25 +29,25 @@
  -moz-animation-duration:1s;
  animation-duration:1s;
 }
-.grey-banner img#one {
--webkit-animation-delay: 0.2s;
--moz-animation-delay: 0.2s;
-animation-delay: 0.2s;
+.grey-banner img#five {
+-webkit-animation-delay: 2.2s;
+-moz-animation-delay: 2.2s;
+animation-delay: 2.2s;
 }
 
-.grey-banner img#two {
--webkit-animation-delay: 0.8s;
--moz-animation-delay: 0.8s;
-animation-delay: 0.8s;
+.grey-banner img#six {
+-webkit-animation-delay: 2.8s;
+-moz-animation-delay: 2.8s;
+animation-delay: 2.8s;
 }
 
-.grey-banner img#three {
--webkit-animation-delay: 1.4s;
--moz-animation-delay: 1.4s;
-animation-delay: 1.4s;
+.grey-banner img#seven {
+-webkit-animation-delay: 3.4s;
+-moz-animation-delay: 3.4s;
+animation-delay: 3.4s;
 }
-.grey-banner img#four {
--webkit-animation-delay: 2s;
--moz-animation-delay: 2s;
-animation-delay: 2s;
+.grey-banner img#eight {
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+animation-delay: 4s;
 }

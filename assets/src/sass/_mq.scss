@@ -14,7 +14,7 @@
 @media screen and (min-width: 581px) {
   .grey-banner .container img {
     margin: 1em 1%;
-    max-width: 23%;
+    max-width: 95%;
 
     &:first-child {
       margin-left:0;
@@ -55,6 +55,7 @@
   }
   .home-banner {
     padding: 60px 0;
+    height:34%;
   }
   footer .links {
     padding-left: 80px;
@@ -68,6 +69,9 @@
   .well-about {
     margin: 30px;
     min-height: 90px;
-
+  }
+  .home-banner {
+    padding: 60px 0;
+    height:44%;
   }
 }
