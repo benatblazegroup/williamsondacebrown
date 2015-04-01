@@ -47,6 +47,11 @@
         <p><strong>Commercial Agency</strong></p>
       </a>
     </div>
+    <div class="col-sm-4">
+      <a class="well well-olive well-about text-center" href="../propertylisting/">
+        <p><strong>Property Listing</strong></p>
+      </a>
+    </div>
   </div>
   <div class="clearfix"></div>
 </section>
