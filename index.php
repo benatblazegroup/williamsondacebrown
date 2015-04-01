@@ -19,8 +19,9 @@
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
-    <h1 class="home-hero">Residential &amp; Commercial sales and lettings</h1>
-    <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
+    <h1 class="home-hero">A Property Consultancy for Today</h1>
+    <p>A team of Chartered Surveyors and property experts to help with all your professional services, property management, residential &amp; commercial sales and lettings.</p>
+    <p>Authorised and Registered with the Financial Services Authority for insurance mediation activities only.</p>
     <div class="home-buttons">
       <a class="btn btn-default btn-olive" href="#" title="Residential">Residential</a>
       <a class="btn btn-default btn-olive" href="#" title="Commercial">Commercial</a>

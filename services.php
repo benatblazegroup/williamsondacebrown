@@ -49,7 +49,7 @@
     </div>
     <div class="col-sm-4">
       <a class="well well-olive well-about text-center" href="../propertylisting/">
-        <p><strong>Property Listing</strong></p>
+        <p><strong>Property For Sale &amp; Lettings</strong></p>
       </a>
     </div>
   </div>
