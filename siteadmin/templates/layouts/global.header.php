@@ -20,7 +20,7 @@
   <nav class="navbar">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.php"><img src="/assets/img/wdb-logo.png"></a>
+        <a class="navbar-brand" href="index.php"><img src="/assets/img/wdb-logo.svg"></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span>Toggle navigation&nbsp;<i class="fa fa-bars"></i></span>
         </button>
