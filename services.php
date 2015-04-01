@@ -21,11 +21,22 @@
     <br>
   </div>
   <div class="button-row">
-  <div class="col-sm-4">
-    <a class="well well-olive well-about text-center" href="../buildings-insurance.php">
-      <p><strong>Building Insurance</strong></p>
-    </a>
+    <div class="col-sm-4">
+      <a class="well well-olive well-about text-center" href="../commercial-agency.php">
+        <p><strong>Commercial Agency</strong></p>
+      </a>
     </div>
+    <div class="col-sm-4">
+      <a class="well well-olive well-about text-center" href="../residential-property.php">
+        <p><strong>Residential Property</strong></p>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a class="well well-olive well-about text-center" href="../buildings-insurance.php">
+        <p><strong>Building Insurance</strong></p>
+      </a>
+    </div>
+    <div class="clearfix"></div>
     <div class="col-sm-4">
       <a class="well well-olive well-about text-center" href="../professional-services.php">
         <p><strong>Professional Services</strong></p>
@@ -34,17 +45,6 @@
     <div class="col-sm-4">
       <a class="well well-olive well-about text-center" href="../dilapidations-maintenance.php">
         <p><strong>Dilapidations &amp; Maintenance</strong></p>
-      </a>
-    </div>
-    <div class="clearfix"></div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../residential-property.php">
-        <p><strong>Residential Property</strong></p>
-      </a>
-    </div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../commercial-agency.php">
-        <p><strong>Commercial Agency</strong></p>
       </a>
     </div>
     <div class="col-sm-4">

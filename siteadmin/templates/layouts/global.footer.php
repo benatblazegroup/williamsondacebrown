@@ -10,12 +10,12 @@
       <div class="Col-sm-4 links">
         <h4>Links</h4>
         <ul class="linkslist">
-          <li><a href="#" title="commercial">Commercial</a></li>
-          <li><a href="#" title="retail">Retail</a></li>
-          <li><a href="#" title="office">Office</a></li>
-          <li><a href="#" title="industrial">Industrial</a></li>
-          <li><a href="#" title="warehouse">Warehouse</a></li>
-          <li><a href="#" title="development">Development</a></li>
+          <li><a href="commercial-agency.php" title="commercial Agency">Commercial Agency</a></li>
+          <li><a href="residential-property.php" title="Residential Property">Residential Property</a></li>
+          <li><a href="buildings-insurance.php" title="Building Insurance">Building Insurance</a></li>
+          <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
+          <li><a href="dilapidations-maintenance.php" title="Dilapidations &amp; Maintenance">Dilapidations &amp; Maintenance</a></li>
+          <li><a href="propertylisting/" title="Property For Sale &amp; Lettings">Property For Sale &amp; Lettings</a></li>
         </ul>
       </div>
       <div class="Col-sm-4">
