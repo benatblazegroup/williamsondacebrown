@@ -3,7 +3,7 @@
     'title'=>'WDB Property &#124; Williamson Dace Brown',
     'desc'=>'Property Consultants, Chartered Surveyors, Managing Agents in the City and Central London',
 )); ?>
-<section class="banner grey-banner">
+<section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
     <img id="one" src="/assets/img/propcons.svg">
     <img id="two" src="/assets/img/charsurv.svg">
