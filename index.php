@@ -5,19 +5,27 @@
 )); ?>
 <section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
-      <div class="col-sm-3">
-        <img class="bottom" id="five" src="/assets/img/propcons.svg">
+    <a href="services.php">
+      <div class="col-sm-3" id="one">
+          <img class="bottom" id="five" src="/assets/img/propcons.svg">
       </div>
-      <div class="col-sm-3">
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3" id="two">
         <img class="bottom" id="six" src="/assets/img/charsurv.svg">
       </div>
-      <div class="col-sm-3">
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3" id="three">
         <img class="bottom" id="seven" src="/assets/img/manage.svg">
       </div>
-      <div class="col-sm-3">
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3" id="four">
         <img class="bottom" id="eight" src="/assets/img/citycen.svg">
       </div>
     </div>
+  </a>
   </div>
   <div class="container visible-xs text-center">
     <h1 class="text-center">Property Consultants<br>

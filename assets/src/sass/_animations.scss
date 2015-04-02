@@ -3,22 +3,58 @@
 @-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
 @-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
 @keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-.home-banner .col-sm-3:first-child {
+.home-banner .container a .col-sm-3 {
+   opacity:0;  /* make things invisible upon start */
+   -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+
+   -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+
+   -webkit-animation-duration:1s;
+   -moz-animation-duration:1s;
+   animation-duration:1s;
+  }
+
+
+
+.home-banner #one {
   background:url('/assets/img/property1.png') center no-repeat;
   background-size: 100%;
+
+  -webkit-animation-delay: 2.2s;
+  -moz-animation-delay: 2.2s;
+  animation-delay: 2.2s;
 }
-.home-banner .col-sm-3:nth-child(2) {
+.home-banner #two {
   background:url('/assets/img/property2.png') center no-repeat;
   background-size: 100%;
+
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay: 2.8s;
+  animation-delay: 2.8s;
 }
-.home-banner .col-sm-3:nth-child(3) {
+.home-banner #three {
   background:url('/assets/img/property3.png') center no-repeat;
   background-size: 100%;
+
+  -webkit-animation-delay: 3.4s;
+  -moz-animation-delay: 3.4s;
+  animation-delay: 3.4s;
 }
-.home-banner .col-sm-3:last-child {
+.home-banner #four {
   background:url('/assets/img/property4.png') center no-repeat;
   background-size: 100%;
+
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
 }
 .grey-banner img.bottom {
  opacity:1;  /* make things invisible upon start */
@@ -35,29 +71,29 @@
  -moz-animation-fill-mode:forwards;
  animation-fill-mode:forwards;
 
- -webkit-animation-duration:1s;
- -moz-animation-duration:1s;
- animation-duration:1s;
+ -webkit-animation-duration:2s;
+ -moz-animation-duration:2s;
+ animation-duration:2s;
 }
 .grey-banner img#five {
--webkit-animation-delay: 2.2s;
--moz-animation-delay: 2.2s;
-animation-delay: 2.2s;
+-webkit-animation-delay: 7.2s;
+-moz-animation-delay: 7.2s;
+animation-delay: 7.2s;
 }
 
 .grey-banner img#six {
--webkit-animation-delay: 2.8s;
--moz-animation-delay: 2.8s;
-animation-delay: 2.8s;
+-webkit-animation-delay: 7.8s;
+-moz-animation-delay: 7.8s;
+animation-delay: 7.8s;
 }
 
 .grey-banner img#seven {
--webkit-animation-delay: 3.4s;
--moz-animation-delay: 3.4s;
-animation-delay: 3.4s;
+-webkit-animation-delay: 8.4s;
+-moz-animation-delay: 8.4s;
+animation-delay: 8.4s;
 }
 .grey-banner img#eight {
--webkit-animation-delay: 4s;
--moz-animation-delay: 4s;
-animation-delay: 4s;
+-webkit-animation-delay: 9s;
+-moz-animation-delay: 9s;
+animation-delay: 9s;
 }
