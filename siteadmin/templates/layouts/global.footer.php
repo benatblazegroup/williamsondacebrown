@@ -15,7 +15,7 @@
           <li><a href="buildings-insurance.php" title="Building Insurance">Building Insurance</a></li>
           <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
           <li><a href="dilapidations-maintenance.php" title="Dilapidations &amp; Maintenance">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="propertylisting/" title="Property For Sale &amp; Lettings">Property For Sale &amp; Lettings</a></li>
+          <li><a href="../propertylisting/index.php" title="Property For Sale &amp; Lettings">Property For Sale &amp; Lettings</a></li>
         </ul>
       </div>
       <div class="Col-sm-4">
