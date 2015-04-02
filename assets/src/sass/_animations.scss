@@ -4,11 +4,21 @@
 @-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
 @keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
 
-.grey-banner .container .col-sm-3 {
-  position: relative;
+.home-banner .col-sm-3:first-child {
+  background:url('/assets/img/property1.png') center no-repeat;
+  background-size: 100%;
 }
-.grey-banner img {
-  position:absolute;
+.home-banner .col-sm-3:nth-child(2) {
+  background:url('/assets/img/property2.png') center no-repeat;
+  background-size: 100%;
+}
+.home-banner .col-sm-3:nth-child(3) {
+  background:url('/assets/img/property3.png') center no-repeat;
+  background-size: 100%;
+}
+.home-banner .col-sm-3:last-child {
+  background:url('/assets/img/property4.png') center no-repeat;
+  background-size: 100%;
 }
 .grey-banner img.bottom {
  opacity:1;  /* make things invisible upon start */

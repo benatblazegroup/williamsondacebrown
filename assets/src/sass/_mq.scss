@@ -11,19 +11,7 @@
     background-color: $forest;
   }
 }
-@media screen and (min-width: 581px) {
-  .grey-banner .container img {
-    margin: 1em 1%;
-    max-width: 95%;
 
-    &:first-child {
-      margin-left:0;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-}
 @media screen and (min-width: 768px) {
   .navbar-brand {
     float: left;
@@ -55,7 +43,7 @@
   }
   .home-banner {
     padding: 60px 0;
-    height:34%;
+    // height:34%;
   }
   footer .links {
     padding-left: 80px;
@@ -72,6 +60,6 @@
   }
   .home-banner {
     padding: 60px 0;
-    height:44%;
+    // height:44%;
   }
 }
