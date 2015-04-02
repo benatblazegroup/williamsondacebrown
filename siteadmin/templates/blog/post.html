@@ -28,16 +28,18 @@
 		<li role="presentation" class="active"><a href="#details" data-toggle="tab">Details</a></li>
 	  <li role="presentation"><a href="#gallery" data-toggle="tab">Gallery</a></li>
 		<li role="presentation"><a href="#location" data-toggle="tab">Location</a></li>
-		<perch:if exists="pdf-download">
+
 				<li role="presentation" class="dropdown">
 			    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
-			      Download <span class="caret"></span>
+			      Print / Download <span class="caret"></span>
 			    </a>
 			    <ul class="dropdown-menu" role="menu">
-						<li><a href="<perch:blog id="pdf-download" type="file" label="PDF Download" order="7" />" alt="<perch:blog id="pdfDownload" />" />Download PDF</a></li>
+						<perch:if exists="pdf-download">
+							<li><a href="<perch:blog id="pdf-download" type="file" label="PDF Download" order="7" />" alt="<perch:blog id="pdfDownload" />" />Download PDF</a></li>
+						</perch:if>
+						<li><a href="#" alt="<perch:blog id="pdfDownload" />" onClick="window.print()" />Print this Page</a></li>
 			    </ul>
 			  </li>
-			</perch:if>
 	</ul>
 </div>
 <div class="tab-content">

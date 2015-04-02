@@ -63,3 +63,8 @@
     padding-left: 80px;
   }
 }
+@media print {
+  .tab-pane {
+    display: block!important;
+  }
+}
