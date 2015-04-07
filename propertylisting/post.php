@@ -12,6 +12,10 @@ perch_layout('blog.header'); ?>
 <div class="container banner">
   <section class="post col-md-8">
   	<?php perch_blog_post(perch_get('s')); ?>
+    <div class="alert alert-warning">
+      <p><strong>Disclaimer</strong></p>
+      <p>Williamson Dace Brown Upgrade endeavour to maintain accurate depictions of properties in Virtual Tours, Floor Plans and descriptions, however, these are intended only as a guide and purchasers must satisfy themselves by personal inspection.</p>
+    </div>
   </section>
 	<section class="sidebar col-md-4">
 		  <?php perch_layout('blog.sidebar'); ?>
