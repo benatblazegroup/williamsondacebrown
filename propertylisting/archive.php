@@ -6,16 +6,16 @@
 <section class="banner grey-banner">
 	<div class="container">
 		<h1>Property Listings</h1>
-		<ol class="breadcrumb">
-			<li><a href="index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
-			<li class="active">About us</li>
-		</ol>
+    <ol class="breadcrumb">
+      <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
+      <li class="active">Property Listing</li>
+    </ol>
 	</div>
 </section>
 <section class="banner white-banner">
 	<div class="container">
 		<div class="row">
-		<div class="col-sm-8">
+		    <div class="col-sm-8">
 
 		    <?php
 		        // defaults for all modes
@@ -155,6 +155,5 @@
 		  </div>
 		</div>
 	</div>
-</div>
-
+</section>
 	<?php perch_layout('global.footer');?>

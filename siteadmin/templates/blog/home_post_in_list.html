@@ -2,7 +2,7 @@
 <div class="hfeed listing"></perch:before>
     <div class="hentry">
       <div class="col-sm-4">
-        <perch:if exists="image"><img src="<perch:blog id="main-image" type="image" crop="false" />" alt="<perch:blog id="postTitle" />" /></perch:if>
+        <img src="<perch:blog id="main-image" type="image" crop="true" label="Main Image" order="2" />" alt="<perch:blog id="postTitle" />" />
       </div>
       <div class="col-sm-8">
         <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a>

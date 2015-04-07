@@ -5,7 +5,7 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Commercial Property</h1>
+    <h1>Property Listings</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li class="active">Property Listing</li>
@@ -16,6 +16,7 @@
   <div class="container">
     <div class="row">
     <div class="col-sm-8">
+      <h1>Most Recent Property:</h1>
     <?php
       perch_blog_custom(array(
         'sort'=>'postDateTime',
