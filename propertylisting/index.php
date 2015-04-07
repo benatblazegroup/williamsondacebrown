@@ -16,12 +16,13 @@
   <div class="container">
     <div class="row">
     <div class="col-sm-8">
-      <h1>Most Recent Property:</h1>
+      <h1>Most Recent Properties:</h1>
+      <br>
     <?php
       perch_blog_custom(array(
         'sort'=>'postDateTime',
         'sort-order'=>'DESC',
-        'template'=>'home_post_in_list.html',
+        'template'=>'archive_post_in_list.html',
         'count'=>10
     )); ?>
     </div>
