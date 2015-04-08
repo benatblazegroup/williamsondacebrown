@@ -42,7 +42,7 @@
 
 		        /* --------------------------- POSTS BY CATEGORY --------------------------- */
 		        if (perch_get('cat')) {
-		            echo '<h1>All '.perch_blog_category(perch_get('cat'), true).' Properties</h1>';
+		            echo '<h1> '.perch_blog_category(perch_get('cat'), true).' Properties</h1>';
 
 		            perch_blog_custom(array(
 							'category'   => perch_get('cat'),
@@ -61,7 +61,7 @@
 
 		        /* --------------------------- POSTS BY TAG --------------------------- */
 		        if (perch_get('tag')) {
-		            echo '<h1>All Properties Tagged  '.perch_blog_tag(perch_get('tag'), true).'</h1>';
+		            echo '<h1>All  '.perch_blog_tag(perch_get('tag'), true).' Properties</h1>';
 
 		            perch_blog_custom(array(
 							'tag'   	 => perch_get('tag'),
