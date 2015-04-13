@@ -7,22 +7,22 @@
   <div class="container hidden-xs">
     <a href="services.php">
       <div class="col-sm-3" id="one">
-          <img class="bottom" id="five" src="/assets/img/propcons.svg">
+          <img class="bottom" id="five" src="/assets/img/property1.png">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3" id="two">
-        <img class="bottom" id="six" src="/assets/img/charsurv.svg">
+        <img class="bottom" id="six" src="/assets/img/property2.png">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3" id="three">
-        <img class="bottom" id="seven" src="/assets/img/manage.svg">
+        <img class="bottom" id="seven" src="/assets/img/property3.png">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3" id="four">
-        <img class="bottom" id="eight" src="/assets/img/citycen.svg">
+        <img class="bottom" id="eight" src="/assets/img/property4.png">
       </div>
     </div>
   </a>

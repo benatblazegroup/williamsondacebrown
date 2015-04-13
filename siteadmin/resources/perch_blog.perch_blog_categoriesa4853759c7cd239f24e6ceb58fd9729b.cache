@@ -1,10 +1,10 @@
 
 <h3>Sectors</h3>
 
-    <a href="archive.php?cat=commercial">Commercial</a>
+    <a href="archive.php?cat=commercial">Commercial</a><br/>
 
 
-    <a href="archive.php?cat=residential">Residential</a>
+    <a href="archive.php?cat=residential">Residential</a><br/>
 
 <hr>
 

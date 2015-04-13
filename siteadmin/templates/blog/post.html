@@ -52,7 +52,10 @@
 		<div class="row gallery-row">
 		<perch:if exists="gallery-image1">
 			<div class="col-sm-3">
+				<a rel="popover" data-toggle="popover"
+					data-html="true" data-placement="top" data-content="					">
 					<img src="<perch:blog id="gallery-image1" type="image" width="320" height="240" crop="true" label="Gallery Image 1" order="8" />"/>
+				</a>
 			</div>
 		</perch:if>
 		<perch:if exists="gallery-image2">
@@ -101,7 +104,7 @@
 <br>
 <div class="alert alert-warning">
 	<p><strong>Disclaimer</strong></p>
-	<p>Williamson Dace Brown Upgrade endeavour to maintain accurate depictions of properties in Virtual Tours, Floor Plans and descriptions, however, these are intended only as a guide and purchasers must satisfy themselves by personal inspection.</p>
+	<p>Williamson Dace Brown endeavour to maintain accurate depictions of properties in Virtual Tours, Floor Plans and descriptions, however, these are intended only as a guide and purchasers must satisfy themselves by personal inspection.</p>
 </div>
 </article>
 
@@ -113,3 +116,8 @@
 				<perch:category id="catTitle" type="text" />
 		</a>
 </perch:categories>
+<script>
+	window.onload = function () {
+	$('[data-toggle="popover"]').popover();
+	};
+</script>
