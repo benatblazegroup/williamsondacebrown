@@ -50,51 +50,17 @@
 	</div>
 	<div class="tab-pane" id="gallery">
 		<div class="row gallery-row">
-		<perch:if exists="gallery-image1">
+			<perch:repeater id="images" label="Images" scope-parent="true" order="8" max="8">
 			<div class="col-sm-3">
-				<a rel="popover" data-toggle="popover"
-					data-html="true" data-placement="top" data-content="					">
-					<img src="<perch:blog id="gallery-image1" type="image" width="320" height="240" crop="true" label="Gallery Image 1" order="8" />"/>
-				</a>
+	    	<img src="<perch:blog type="image" id="image" label="Image" />"
+	      alt="<perch:blog type="text" id="alt" label="Description" />" />
 			</div>
-		</perch:if>
-		<perch:if exists="gallery-image2">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image2" type="image"  crop="true" label="Gallery Image 2" order="9" />"/>
+			</perch:repeater>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+
 			</div>
-		</perch:if>
-		<perch:if exists="gallery-image3">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image3" type="image"  crop="true" label="Gallery Image 3" order="10" />" />
-			</div>
-		</perch:if>
-		<perch:if exists="gallery-image4">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image4" type="image" crop="true" label="Gallery Image 4" order="11" />"/>
-			</div>
-		</perch:if>
-	</div>
-	<div class="row gallery-row">
-		<perch:if exists="gallery-image5">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image5" type="image" crop="true" label="Gallery Image 5" order="12" />"/>
-			</div>
-		</perch:if>
-		<perch:if exists="gallery-image6">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image6" type="image"  crop="true" label="Gallery Image 6" order="13" />"/>
-			</div>
-		</perch:if>
-		<perch:if exists="gallery-image7">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image7" type="image"  crop="true" label="Gallery Image 7" order="14" />"/>
-			</div>
-		</perch:if>
-		<perch:if exists="gallery-image8">
-			<div class="col-sm-3">
-					<img src="<perch:blog id="gallery-image8" type="image" crop="true" label="Gallery Image 8" order="15" />"/>
-			</div>
-		</perch:if>
 		</div>
 	</div>
 	<div class="tab-pane" id="location">
@@ -116,8 +82,3 @@
 				<perch:category id="catTitle" type="text" />
 		</a>
 </perch:categories>
-<script>
-	window.onload = function () {
-	$('[data-toggle="popover"]').popover();
-	};
-</script>
