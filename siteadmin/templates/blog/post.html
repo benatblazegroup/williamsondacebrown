@@ -52,12 +52,15 @@
 		<div class="row gallery-row">
 			<perch:repeater id="images" label="Images" max="8">
 			<div class="col-sm-3">
-				<a data-toggle="popover" data-html="true" title="Image" data-content="
-						<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description" />">
+				<a id="popover" data-toggle="popover" data-html="true" title="Image" data-content="">
 					<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description" />" />
 				</a>
 			</div>
-</perch:repeater>
+			<script>
+				var image = '<perch:blog type="image" id="image" label="Image" />';
+				$('#popover').popover({placement: 'bottom', content: image, html: true});
+		</script>
+		</perch:repeater>
 		</div>
 		<div class="row">
 			<div class="col-sm-12">

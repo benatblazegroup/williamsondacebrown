@@ -7,6 +7,7 @@
   <title><?php perch_layout_var('title'); ?></title>
   <meta name="description" content="<?php perch_layout_var('desc'); ?>">
   <?php perch_get_css(); ?>
+  <?php perch_get_javascript(); ?>
 </head>
 <body>
 <section class="preheader">
