@@ -19,8 +19,7 @@
     <h3 class="text-center text-olive">As a property consultancy company, we work with clients in a number of different areas:</h3>
     <br>
     <br>
-  </div>
-  <div class="button-row">
+  <div class="row button-row">
     <div class="col-sm-4">
       <a class="well well-olive well-about text-center" href="../commercial-agency.php">
         <p><strong>Commercial Agency</strong></p>

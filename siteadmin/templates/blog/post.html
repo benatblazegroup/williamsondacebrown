@@ -50,12 +50,14 @@
 	</div>
 	<div class="tab-pane" id="gallery">
 		<div class="row gallery-row">
-			<perch:repeater id="images" label="Images" scope-parent="true" order="8" max="8">
+			<perch:repeater id="images" label="Images" max="8">
 			<div class="col-sm-3">
-	    	<img src="<perch:blog type="image" id="image" label="Image" />"
-	      alt="<perch:blog type="text" id="alt" label="Description" />" />
+				<a data-toggle="popover" data-html="true" title="Image" data-content="
+						<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description" />">
+					<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description" />" />
+				</a>
 			</div>
-			</perch:repeater>
+</perch:repeater>
 		</div>
 		<div class="row">
 			<div class="col-sm-12">

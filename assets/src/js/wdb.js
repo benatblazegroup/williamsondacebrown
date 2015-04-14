@@ -3,3 +3,6 @@ $('.nav-tabs li a').click(function (e) {
     $(this).tab('show');
     CMSMap.UI.refresh();
 });
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})

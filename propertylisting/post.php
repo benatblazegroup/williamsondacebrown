@@ -10,11 +10,13 @@ perch_layout('blog.header'); ?>
   </div>
 </section>
 <div class="container banner">
-  <section class="post col-md-8">
+  <div class="row">
+  <section class="post col-sm-8">
   	<?php perch_blog_post(perch_get('s')); ?>
   </section>
-	<section class="sidebar col-md-4">
+	<section class="sidebar col-sm-3 col-sm-offset-1">
 		  <?php perch_layout('blog.sidebar'); ?>
 	</section>
+</div>
 </div>
 <?php perch_layout('global.footer'); ?>
