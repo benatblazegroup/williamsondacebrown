@@ -28,18 +28,6 @@
 		<li role="presentation" class="active"><a href="#details" data-toggle="tab">Details</a></li>
 	  <li role="presentation"><a href="#gallery" data-toggle="tab">Gallery</a></li>
 		<li role="presentation"><a href="#location" data-toggle="tab">Location</a></li>
-
-				<li role="presentation" class="dropdown">
-			    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
-			      Print / Download <span class="caret"></span>
-			    </a>
-			    <ul class="dropdown-menu" role="menu">
-						<perch:if exists="pdf-download">
-							<li><a href="<perch:blog id="pdf-download" type="file" label="PDF Download" order="7" />" alt="<perch:blog id="pdfDownload" />" />Download PDF</a></li>
-						</perch:if>
-						<li><a href="#" alt="<perch:blog id="pdfDownload" />" onClick="window.print()" />Print this Page</a></li>
-			    </ul>
-			  </li>
 	</ul>
 </div>
 <div class="tab-content">
@@ -50,21 +38,21 @@
 	</div>
 	<div class="tab-pane" id="gallery">
 		<div class="row gallery-row">
-			<perch:repeater id="images" label="Images" max="8">
-			<div class="col-sm-3">
-				<a id="popover" data-toggle="popover" data-html="true" title="Image" data-content="">
-					<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description" />" />
-				</a>
-			</div>
-			<script>
-				var image = '<perch:blog type="image" id="image" label="Image" />';
-				$('#popover').popover({placement: 'bottom', content: image, html: true});
-		</script>
-		</perch:repeater>
+
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-
+				<perch:repeater id="images" label="Images" max="8" >
+				<div class="col-sm-3">
+					<a id="popover" data-toggle="popover" data-html="true" title="Image" data-content="">
+						<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+						<script>
+							var image = '<img src="<perch:blog type="image" id="image" label="Image" />">';
+							$('#popover').popover({placement: 'bottom', content: image, html: true});
+					</script>
+					</a>
+				</div>
+			</perch:repeater>
 			</div>
 		</div>
 	</div>
@@ -73,6 +61,8 @@
 	</div>
 </div>
 <br>
+<a class="btn btn-default btn-olive" target="_blank" href="<perch:blog id="pdf-download" type="file" label="PDF Download" order="7" />" alt="<perch:blog id="pdfDownload" />" />Download Full Details</a>
+<p>&nbsp;</p>
 <div class="alert alert-warning">
 	<p><strong>Disclaimer</strong></p>
 	<p>Williamson Dace Brown endeavour to maintain accurate depictions of properties in Virtual Tours, Floor Plans and descriptions, however, these are intended only as a guide and purchasers must satisfy themselves by personal inspection.</p>

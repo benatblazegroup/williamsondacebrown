@@ -39,8 +39,8 @@
     <p>A team of Chartered Surveyors and property experts to help with all your professional services, property management, residential &amp; commercial sales and lettings.</p>
     <p>Authorised and Registered with the Financial Services Authority for insurance mediation activities only.</p>
     <div class="home-buttons">
-      <a class="btn btn-default btn-olive" href="#" title="Residential">Residential</a>
-      <a class="btn btn-default btn-olive" href="#" title="Commercial">Commercial</a>
+      <a class="btn btn-default btn-olive" href="residential-property.php" title="Residential">Residential</a>
+      <a class="btn btn-default btn-olive" href="commercial-agency.php" title="Commercial">Commercial</a>
     </div>
   </div>
 </section>

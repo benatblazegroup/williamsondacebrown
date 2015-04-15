@@ -31,7 +31,7 @@
           <li class="active"><a href="../index.php">Home</a></li>
           <li><a href="../about.php">About</a></li>
           <li><a href="../services.php">Services</a></li>
-          <li><a href="../propertylisting/index.php">Listings</a></li>
+          <li><a href="../propertylisting/index.php">For Sale &amp; To Let</a></li>
           <!-- <li><a href="commercial.php">Commercial services</a></li> -->
           <li><a href="../contact.php">Contact</a></li>
         </ul>

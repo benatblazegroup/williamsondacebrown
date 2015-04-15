@@ -2,10 +2,10 @@
 perch_layout('blog.header'); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Property Listing</h1>
+    <h1>Property For Sale &amp; To Let</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Property Listing</li>
+      <li class="active">Property For Sale &amp; To Let</li>
     </ol>
   </div>
 </section>
@@ -19,4 +19,11 @@ perch_layout('blog.header'); ?>
 	</section>
 </div>
 </div>
+<script>
+  $('.nav-tabs li a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      CMSMap.UI.refresh();
+  });
+</script>
 <?php perch_layout('global.footer'); ?>

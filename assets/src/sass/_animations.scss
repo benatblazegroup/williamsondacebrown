@@ -22,39 +22,37 @@
    animation-duration:1s;
   }
 
-
-
 .home-banner #one {
   background:url('/assets/img/propcons.svg') center no-repeat;
   background-size: 100%;
 
-  -webkit-animation-delay: 1.8s;
-  -moz-animation-delay: 1.8s;
-  animation-delay: 1.8s;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 .home-banner #two {
   background:url('/assets/img/charsurv.svg') center no-repeat;
   background-size: 100%;
 
-  -webkit-animation-delay: 2.2s;
-  -moz-animation-delay: 2.2s;
-  animation-delay: 2.2s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 .home-banner #three {
   background:url('/assets/img/manage.svg') center no-repeat;
   background-size: 100%;
 
-  -webkit-animation-delay: 2.8s;
-  -moz-animation-delay: 2.8s;
-  animation-delay: 2.8s;
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 .home-banner #four {
   background:url('/assets/img/citycen.svg') center no-repeat;
   background-size: 100%;
 
-  -webkit-animation-delay: 3.2s;
-  -moz-animation-delay: 3.2s;
-  animation-delay: 3.2s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
 .grey-banner img.bottom {
  opacity:1;  /* make things invisible upon start */
@@ -76,24 +74,24 @@
  animation-duration:1s;
 }
 .grey-banner img#five {
--webkit-animation-delay: 5.2s;
--moz-animation-delay: 5.2s;
-animation-delay: 5.2s;
+-webkit-animation-delay: 3.8s;
+-moz-animation-delay: 3.8s;
+animation-delay: 3.8s;
 }
 
 .grey-banner img#six {
--webkit-animation-delay: 5.8s;
--moz-animation-delay: 5.8s;
-animation-delay: 5.8s;
+-webkit-animation-delay: 4.4s;
+-moz-animation-delay: 4.4s;
+animation-delay: 4.4s;
 }
 
 .grey-banner img#seven {
--webkit-animation-delay: 6.4s;
--moz-animation-delay: 6.4s;
-animation-delay: 6.4s;
+-webkit-animation-delay: 5s;
+-moz-animation-delay: 5s;
+animation-delay: 5s;
 }
 .grey-banner img#eight {
--webkit-animation-delay: 7s;
--moz-animation-delay: 7s;
-animation-delay: 7s;
+-webkit-animation-delay: 5.6s;
+-moz-animation-delay: 5.6s;
+animation-delay: 5.6s;
 }
