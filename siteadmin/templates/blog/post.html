@@ -41,19 +41,96 @@
 
 		</div>
 		<div class="row">
-			<div class="col-sm-12">
-				<perch:repeater id="images" label="Images" max="8" >
-				<div class="col-sm-3">
-					<a id="popover" data-toggle="popover" data-html="true" title="Image" data-content="">
-						<img src="<perch:blog type="image" id="image" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
-						<script>
-							var image = '<img src="<perch:blog type="image" id="image" label="Image" />">';
-							$('#popover').popover({placement: 'bottom', content: image, html: true});
-					</script>
-					</a>
-				</div>
-			</perch:repeater>
+		<perch:if exists="image1">
+			<div class="col-sm-3">
+				<a id="popover1" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image1" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image1" label="Image" />">';
+						$('#popover1').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
 			</div>
+		</perch:if>
+		<perch:if exists="image2">
+			<div class="col-sm-3">
+				<a id="popover2" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image2" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image2" label="Image" />">';
+						$('#popover2').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		<perch:if exists="image3">
+			<div class="col-sm-3">
+				<a id="popover3" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image3" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image3" label="Image" />">';
+						$('#popover3').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		<perch:if exists="image4">
+			<div class="col-sm-3">
+				<a id="popover4" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image4" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image4" label="Image" />">';
+						$('#popover4').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		</div>
+		<div class="row">
+		<perch:if exists="image6">
+			<div class="col-sm-3">
+				<a id="popover6" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image6" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image6" label="Image" />">';
+						$('#popover6').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		<perch:if exists="image6">
+			<div class="col-sm-3">
+				<a id="popover6" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image6" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image6" label="Image" />">';
+						$('#popover6').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		<perch:if exists="image7">
+			<div class="col-sm-3">
+				<a id="popover7" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image7" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image7" label="Image" />">';
+						$('#popover7').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
+		<perch:if exists="image8">
+			<div class="col-sm-3">
+				<a id="popover8" data-toggle="popover" data-html="true" title="Image" data-content="">
+					<img src="<perch:blog type="image" id="image8" label="Image" />" alt="<perch:blog type="text" id="alt" label="Description"/>" />
+					<script>
+						var image = '<img src="<perch:blog type="image" id="image8" label="Image" />">';
+						$('#popover8').popover({placement: 'bottom', content: image, html: true});
+				</script>
+				</a>
+			</div>
+		</perch:if>
 		</div>
 	</div>
 	<div class="tab-pane" id="location">
