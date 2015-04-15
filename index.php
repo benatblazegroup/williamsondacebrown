@@ -6,22 +6,22 @@
 <section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
     <a href="services.php">
-      <div class="col-sm-3" id="one">
+      <div class="col-sm-3 home-circle" id="one">
           <img class="bottom" id="five" src="/assets/img/property1.png">
       </div>
     </a>
     <a href="services.php">
-      <div class="col-sm-3" id="two">
+      <div class="col-sm-3 home-circle" id="two">
         <img class="bottom" id="six" src="/assets/img/property2.png">
       </div>
     </a>
     <a href="services.php">
-      <div class="col-sm-3" id="three">
+      <div class="col-sm-3 home-circle" id="three">
         <img class="bottom" id="seven" src="/assets/img/property3.png">
       </div>
     </a>
     <a href="services.php">
-      <div class="col-sm-3" id="four">
+      <div class="col-sm-3 home-circle" id="four">
         <img class="bottom" id="eight" src="/assets/img/property4.png">
       </div>
     </div>
