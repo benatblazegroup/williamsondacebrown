@@ -3,22 +3,22 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    concat: {
-    options: {
-      separator: ';',
+      //uglify: {
+      //  my_target: {
+      //    files: {
+      //      'assets/js/wdb.min.js': ['assets/js/wdb.js']
+      //    }
+      //  }
+      //},
+      concat: {
+        options: {
+          separator: ';',
+          },
+          dist: {
+            src: ['assets/src/js/bootstrap/*.js','assets/src/js/wdb.js'],
+            dest: 'assets/js/wdb.js',
+          },
     },
-    dist: {
-      src: ['assets/src/js/bootstrap/*.js','assets/src/js/wdb.js'],
-      dest: 'assets/js/wdb.js',
-    },
-  },
-  // uglify: {
-  //   my_target: {
-  //   files: {
-  //       '/assets/js/wdb.min.js': ['/assets/js/wdb.js']
-  //     }
-  //   }
-  // },
     sass: {
       dist: {
         options: {
@@ -32,14 +32,13 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin that provides the tasks.
-  // grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-autoprefixer');
+  //grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Default task(s).
   grunt.registerTask('default', [
-    // 'uglify',
+    //'uglify',
     'sass',
     'concat',
     ]);
