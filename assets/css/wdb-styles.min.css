@@ -5481,15 +5481,28 @@ p.nomargin {
   margin: 0; }
 
 .hentry h2 {
-  font-size: 12;
+  font-size: 12px;
   font-weight: 700;
   margin: 0; }
+  .hentry h2 > a {
+    color: black;
+    text-decoration: none; }
+    .hentry h2 > a:hover,
+    .hentry h2 > a:active {
+      color: black;
+      text-decoration: underline; }
 
-.hentry h2 a {
-  color: black; }
+.entry-title {
+  font-size: 12px; }
 
 .entry-summary {
   margin-top: 10px; }
+
+.hentry img:hover {
+  opacity: 0.5;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
 
 .sidebar h3:first-child {
   margin-top: 0; }

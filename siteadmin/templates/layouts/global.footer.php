@@ -1,13 +1,13 @@
 <footer class="footer">
   <section class="footer-top banner">
     <div class="container">
-      <div class="Col-sm-4">
+      <div class="col-sm-4">
         <h4>About Us</h4>
         <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
         <a href="about.php" title="about us">Read more <i class="fa fa-chevron-right"></i></a>
-        <img src="/assets/img/rics.svg">
+        <img src="/assets/img/rics.svg" title="Royal Institute of Chartered Surveyors logo">
       </div>
-      <div class="Col-sm-4 links">
+      <div class="col-sm-4 links">
         <h4>Links</h4>
         <ul class="linkslist">
           <li><a href="commercial-agency.php" title="commercial Agency">Commercial Agency</a></li>
@@ -18,7 +18,7 @@
           <li><a href="../propertylisting/index.php" title="Property For Sale &amp; Lettings">Property For Sale &amp; Lettings</a></li>
         </ul>
       </div>
-      <div class="Col-sm-4">
+      <div class="col-sm-4">
         <h4>Get In Touch</h4>
         <ul class="getintouch">
           <li><i class="fa fa-envelope"></i><a href="mailto:info@wdbproperty.com"> mail@wdbproperty.com</a></li>
