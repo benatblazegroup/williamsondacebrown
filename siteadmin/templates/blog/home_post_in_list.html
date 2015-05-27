@@ -1,0 +1,30 @@
+<perch:before>
+<div class="hfeed listing"></perch:before>
+    <div class="hentry">
+      <div class="col-sm-4">
+        <perch:if exists="image"><img src="<perch:blog id="main-image" type="image" crop="false" />" alt="<perch:blog id="postTitle" />" /></perch:if>
+      </div>
+      <div class="col-sm-8">
+        <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a>
+          <br>
+          <perch:blog id="price" type="text" label="Price" markdown="true" order="2" size="s" /></h2>
+        <div class="description entry-summary">
+          <perch:blog id="excerpt" type="textarea" textile="true" />
+        </div>
+      </div>
+    </div>
+<perch:after>
+    </div>
+    <perch:if exists="paging">
+        <div class="paging">
+            Page <perch:blog id="current_page" /> of <perch:blog id="number_of_pages" />
+            <perch:blog id="page_links" encode="false" />
+            <perch:if exists="not_first_page">
+                <a href="<perch:blog id="prev_url" encode="false" />">Previous</a>
+            </perch:if>
+            <perch:if exists="not_last_page">
+                <a href="<perch:blog id="next_url" encode="false" />">Next</a>
+            </perch:if>
+        </div>
+    </perch:if>
+</perch:after>

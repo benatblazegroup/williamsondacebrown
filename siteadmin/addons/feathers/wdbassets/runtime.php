@@ -24,7 +24,7 @@ class PerchFeather_wdbassets extends PerchFeather
 
         if (!$this->component_registered('jquery')) {
     			$out[] = $this->_script_tag(array(
-    				'src'=>'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'
+    				'src'=>'/assets/js/jquery-1.11.2.min.js'
     			));
     			$this->register_component('jquery');
     		};
