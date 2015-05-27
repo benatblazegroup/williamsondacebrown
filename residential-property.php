@@ -32,6 +32,12 @@
           <li>Property checks </li>
           <li>Maintenance management</li>
         </ul>
+        <hr>
+        <div class="imagerow">
+          <img src="assets/img/TDS.jpg" title="Tenancy Deposit Scheme member">
+          <img src="assets/img/Rightmove.jpg" title="Find us on Rightmove">
+          <img src="assets/img/Rent4sure.jpg" title="Rent4Sure Protection">
+        </div>
       </div>
       <div class="col-sm-4 sidebar">
         <h3>Our Services:</h3>

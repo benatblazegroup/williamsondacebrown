@@ -16,7 +16,7 @@ p {
 }
 body {
   line-height: 1.8em;
-  font-size: 12px;
+  font-size: 14px;
 }
 a {
   color: $forest;
@@ -80,10 +80,6 @@ ul, ol {
   p.nomargin {
     margin: 0;
   }
-  p.light {
-    color: $even-lighter-grey;
-    margin-top: 0;
-  }
 .hentry h2 {
   font-size: 12;
   font-weight: 700;
@@ -93,7 +89,7 @@ ul, ol {
     color: black;
   }
   .entry-summary {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .sidebar h3:first-child {
     margin-top: 0;
@@ -145,4 +141,14 @@ ul, ol {
 }
 .nav-pills > li.active a {
   color: $grey!important;
+}
+
+.imagerow {
+  margin-top: 20px;
+
+  > img {
+    width: 24%;
+    max-width: 24%;
+    padding-right: 5%;
+  }
 }

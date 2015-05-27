@@ -2,17 +2,18 @@
 <div class="hfeed listing"></perch:before>
     <div class="hentry row">
       <div class="col-sm-4">
-        <img src="<perch:blog id="main-image" type="image" crop="false" />" alt="<perch:blog id="postTitle" />" />
+        <a href="<perch:blog id="postURL" />"><img src="<perch:blog id="main-image" type="image" crop="false" />" alt="<perch:blog id="postTitle" />" /></a>
       </div>
       <div class="col-sm-8">
-        <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a>
-          <br>
+        <h2><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a> &mdash;
           <perch:blog id="price" type="text" label="Price" markdown="true" order="2" size="s" /></h2>
         <div class="description entry-summary">
           <perch:blog id="excerpt" type="textarea" textile="true" />
+          <a class="btn btn-default btn-olive" href="<perch:blog id="postURL" />">Full Details</a>
         </div>
       </div>
     </div>
+    <br>
 <perch:after>
     </div>
     <perch:if exists="paging">

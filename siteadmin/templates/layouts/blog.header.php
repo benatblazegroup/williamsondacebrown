@@ -13,7 +13,7 @@
 <section class="preheader">
   <div class="container">
     <div class="phone">
-      <i class="fa fa-phone"></i> 020 8886 4407
+      Established since 1962 <i class="fa fa-phone"></i> 020 8886 4407
     </div>
   </div>
 </section>
