@@ -5562,6 +5562,15 @@ form textarea {
     max-width: 24%;
     padding-right: 5%; }
 
+.img-background {
+  background-color: #9fa88b; }
+
+@media screen and (min-width: 768px) {
+  .col-sm-offset-point5 {
+    margin-left: 14.33333%; }
+  .col-sm-offset-4point5 {
+    margin-left: 38.7233%; } }
+
 .preheader {
   padding: 3px 0;
   color: white;

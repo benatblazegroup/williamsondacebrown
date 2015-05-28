@@ -169,3 +169,14 @@ ul, ol {
     padding-right: 5%;
   }
 }
+.img-background {
+  background-color: $olive;
+}
+@media screen and (min-width: 768px) {
+  .col-sm-offset-point5 {
+    margin-left: 14.33333%;
+  }
+  .col-sm-offset-4point5 {
+      margin-left: 38.7233%;
+  }
+}
