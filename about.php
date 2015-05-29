@@ -17,154 +17,159 @@
     <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
     <p>The business is an amalgamation of three established companies, Williamsons of Southgate, W. Goodchild &amp; Co, Enfield and St. John &amp; Glossop, Enfield. The partnership has fifty years of experience operating in both commercial and residential property sectors in London and the Home Counties.</p>
       <p>From our office in Southgate, North London, we have been looking after client’s property building up long term relationships with both landlords and tenants for the past fifty years. </p>
-      <p>Both partners of WDB are qualified chartered surveyors and the firm is therefore regulated by the RICS (Royal Institution of Chartered Surveyors). The RICS are the world's leading professional body for qualifications and standards in land, property and construction. We are also regulated by the Tenancy Deposit Scheme and the Financial Conduct Authority.  </p>
       <hr>
-      <h2>Partners / Chartered Surveyors</h2>
+      <h2>Our Team</h2>
+      <p>Both partners of WDB are qualified chartered surveyors and the firm is therefore regulated by the RICS (Royal Institution of Chartered Surveyors). The RICS are the world's leading professional body for qualifications and standards in land, property and construction. We are also regulated by the Tenancy Deposit Scheme and the Financial Conduct Authority.</p>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-3">
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/kate-dace.png">
-            <p><strong>Kate Dace</strong></p>
-            <p>Partner, Chartered Surveyor<br/>
+          <h3>Partner, Chartered Surveyor</h3>
+            <img class="img-circle" src="/assets/img/kate-dace.png" alt="Kate Dace">
+            <p><strong>Kate Dace</strong><br/>
+               Partner, Chartered Surveyor<br/>
                020 886 4407</p>
           </div>
         </div>
         <div class="col-sm-3">
+        <h3>Partner, Chartered Surveyor</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/alex-brown.png">
+            <img class="img-circle" src="/assets/img/alex-brown.png" alt="Alex Brown">
             <br>
-            <p><strong>Alex Brown</strong></p>
-            <p>Partner, Chartered Surveyor<br/>
+            <p><strong>Alex Brown</strong><br/>
+               Partner, Chartered Surveyor<br/>
                020 886 4407</p>
           </div>
         </div>
       </div>
-      <h2>Graduate Surveyors</h2>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-3">
+          <h3>Graduate Surveyor</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/tom-dace.png">
-            <p><strong>Thomas Dace</strong></p>
-            <p>Graduate Surveyor<br/>
+            <img class="img-circle" src="/assets/img/tom-dace.png" alt="Tom Dace">
+            <p><strong>Thomas Dace</strong><br/>
+               Graduate Surveyor<br/>
                020 8920 2496</p>
           </div>
         </div>
         <div class="col-sm-3">
+          <h3>Graduate Surveyor</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/zeki-ansal.png">
+            <img class="img-circle" src="/assets/img/zeki-ansal.png" alt="Zeki Ansal">
             <br>
-            <p><strong>Zeki Ansal</strong></p>
-            <p>Graduate Building Surveyor<br/>
+            <p><strong>Zeki Ansal</strong><br/>
+               Graduate Building Surveyor<br/>
                020 8920 2497</p>
           </div>
         </div>
       </div>
-      <h2>Residential Lettings</h2>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-point5">
+        <h3>Residential Lettings</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/jacky-parnell.png">
-            <p><strong>Jacqueline Parnell</strong></p>
-            <p>Senior Lettings Negotiator<br/>
+            <img class="img-circle" src="/assets/img/jacky-parnell.png" alt="Jacqueline Parnell">
+            <p><strong>Jacqueline Parnell</strong><br/>
+               Senior Lettings Negotiator<br/>
                020 8920 2494</p>
           </div>
         </div>
         <div class="col-sm-3">
+        <h3>Residential Lettings</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/kristina-varnava.png">
+            <img class="img-circle" src="/assets/img/kristina-varnava.png" alt="Kristina Varnava">
             <br>
-            <p><strong>Kristina Varnava</strong></p>
-            <p>Lettings Negotiator<br/>
+            <p><strong>Kristina Varnava</strong><br/>
+               Lettings Negotiator<br/>
                020 8920 2499</p>
           </div>
         </div>
         <div class="col-sm-3">
+        <h3>Residential Lettings</h3>
           <div class="team-feature">
-            <img class="img-circle img-background" src="/assets/img/nopicture.png">
+            <img class="img-circle img-background" src="/assets/img/nopicture.png" alt="Placeholder">
             <br>
-            <p><strong>Janet Reardon</strong></p>
-            <p>Lettings Negotiator<br/>
+            <p><strong>Janet Reardon</strong><br/>
+               Lettings Negotiator<br/>
                0208 886 4407</p>
           </div>
         </div>
       </div>
-      <h2>Service charge/Building Insurance</h2>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-3">
+        <h3>Service charge/Building Insurance</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/sophia-orphanides.png">
+            <img class="img-circle" src="/assets/img/sophia-orphanides.png" alt="Sophia Orphanides">
             <p><strong>Sophia Orphanides</strong><br/>
             0208 886 4407</p>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/karen-rider.png">
+          <h3>Service charge/Building Insurance</h3>
+            <img class="img-circle" src="/assets/img/karen-rider.png" alt="Karen Rider">
             <br>
             <p><strong>Karen Rider</strong><br/>
             0208 886 4407</p>
           </div>
         </div>
       </div>
-      <h2>Accounts</h2>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-point5">
+          <h3>Accounts</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/alan-dewberry.png">
-            <p><strong>Alan Dewberry</strong></p>
-            <p>0208 886 4407</p>
+            <img class="img-circle" src="/assets/img/alan-dewberry.png" alt="Alan Dewberry">
+            <p><strong>Alan Dewberry</strong><br/>
+            0208 886 4407</p>
           </div>
         </div>
         <div class="col-sm-3">
+          <h3>Accounts</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/sheila-wilson.png">
+            <img class="img-circle" src="/assets/img/sheila-wilson.png" alt="Sheila Wilson">
             <br>
-            <p><strong>Sheila Wilson</strong></p>
-            <p>0208 886 4407</p>
+            <p><strong>Sheila Wilson</strong><br/>
+            0208 886 4407</p>
           </div>
         </div>
         <div class="col-sm-3">
+        <h3>Accounts</h3>
           <div class="team-feature">
-            <img class="img-circle img-background" src="/assets/img/nopicture.png">
+            <img class="img-circle img-background" src="/assets/img/nopicture.png" alt="Placeholder">
             <br>
-            <p><strong>Alison Bryant</strong></p>
-            <p>0208 886 4407</p>
-          </div>
-        </div>
-      </div>
-      <h2>Secretary</h2>
-      <div class="team-block row">
-        <div class="col-sm-3 col-sm-offset-4point5">
-          <div class="team-feature">
-            <img class="img-circle" src="/assets/img/pauline-fellerman.png">
-            <p><strong>Pauline Fellerman</strong><br/>
+            <p><strong>Alison Bryant</strong><br/>
             0208 886 4407</p>
           </div>
         </div>
       </div>
-      <h2>Reception / Administration</h2>
       <div class="team-block row">
-        <div class="col-sm-3 col-sm-offset-3">
+        <div class="col-sm-3">
+          <h3>Secretary</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/thelia-farago.png">
+            <img class="img-circle" src="/assets/img/pauline-fellerman.png" alt="Pauline Fellerman">
+            <p><strong>Pauline Fellerman</strong><br/>
+            0208 886 4407</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h4>Reception / Administration</h4>
+          <div class="team-feature">
+            <img class="img-circle" src="/assets/img/thelia-farago.png" alt="Thelia Farago">
             <p><strong>Thelia Farago</strong><br/>
                020 886 4407</p>
           </div>
         </div>
         <div class="col-sm-3">
+          <h4>Reception / Administration</h4>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/lida-litras.png">
+            <img class="img-circle" src="/assets/img/lida-litras.png" alt="Lida Litras">
             <br>
             <p><strong>Lida Litras</strong><br/>
                020 886 4407</p>
           </div>
         </div>
-      </div>
-      <h2>Maintenance</h2>
-      <div class="team-block row">
-        <div class="col-sm-3 col-sm-offset-4point5">
+        <div class="col-sm-3">
+          <h3>Maintenance</h3>
           <div class="team-feature">
-            <img class="img-circle" src="/assets/img/michael-coyne.png">
+            <img class="img-circle" src="/assets/img/michael-coyne.png" alt="Michael Coyne">
             <p><strong>Michael Coyne</strong><br/>
             0208 886 4407</p>
           </div>

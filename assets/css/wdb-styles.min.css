@@ -2321,7 +2321,7 @@ tbody.collapse.in {
 .nav-pills > li {
   float: left;
   margin-left: 2px;
-  background-color: #9fa88b; }
+  background-color: #dee2d4; }
 
 .nav-pills.active > a,
 .nav-pills.active > a:hover,
@@ -5427,9 +5427,6 @@ a {
   a:hover, a:focus {
     color: #646568; }
 
-h4 {
-  text-transform: uppercase; }
-
 ul, ol {
   padding-left: 0; }
 
@@ -5446,7 +5443,7 @@ ul, ol {
   background-color: #e3e3e4; }
 
 .grey-banner h1 {
-  font-weight: 300;
+  font-weight: 400;
   display: inline-block;
   color: #9fa88b;
   margin: 0; }
@@ -5510,9 +5507,6 @@ p.nomargin {
 .sidebar a {
   color: #ababab; }
 
-.nav-pills li a {
-  color: white !important; }
-
 form label, form input, form textarea {
   display: block;
   margin-top: 10px;
@@ -5553,7 +5547,7 @@ form textarea {
   background-color: white; }
 
 .nav-pills > li.active a {
-  color: #646568 !important; }
+  color: #646568; }
 
 .imagerow {
   margin-top: 20px; }
@@ -5567,7 +5561,7 @@ form textarea {
 
 @media screen and (min-width: 768px) {
   .col-sm-offset-point5 {
-    margin-left: 14.33333%; }
+    margin-left: 13.23333%; }
   .col-sm-offset-4point5 {
     margin-left: 38.7233%; } }
 
@@ -5887,3 +5881,5 @@ https://gist.github.com/larrybotha/7881691
     width: 100%; }
   .navbar-brand img {
     height: 70px; } }
+
+/*# sourceMappingURL=wdb-styles.min.css.map */

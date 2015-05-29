@@ -23,6 +23,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           style: 'compressed',
+          sourceMap: true,
         },
         files: {
           'assets/css/wdb-styles.min.css': 'assets/src/sass/wdb.scss'

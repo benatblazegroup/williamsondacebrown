@@ -25,9 +25,6 @@ a {
     color: $grey;
   }
 }
-h4 {
-  text-transform: uppercase;
-}
 ul, ol {
   padding-left: 0;
 }
@@ -44,7 +41,7 @@ ul, ol {
     background-color: $light-grey;
   }
   .grey-banner h1 {
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
     color: $olive;
     margin: 0;
@@ -114,9 +111,6 @@ ul, ol {
   .sidebar a {
     color: $even-lighter-grey;
   }
-  .nav-pills li a {
-    color: white!important;
-  }
   form label, form input, form textarea {
     display: block;
     margin-top: 10px;
@@ -157,7 +151,7 @@ ul, ol {
   background-color: white;
 }
 .nav-pills > li.active a {
-  color: $grey!important;
+  color: $grey;
 }
 
 .imagerow {
@@ -173,8 +167,9 @@ ul, ol {
   background-color: $olive;
 }
 @media screen and (min-width: 768px) {
+  // these exist because I was given a design that is incompatible with the grid
   .col-sm-offset-point5 {
-    margin-left: 14.33333%;
+    margin-left: 13.23333%;
   }
   .col-sm-offset-4point5 {
       margin-left: 38.7233%;

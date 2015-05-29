@@ -7,31 +7,31 @@
   <div class="container hidden-xs">
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="one">
-          <img class="bottom" id="five" src="/assets/img/property1.png">
+          <img class="bottom" id="five" src="/assets/img/property1.png" alt="village shop premises">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="two">
-        <img class="bottom" id="six" src="/assets/img/property2.png">
+        <img class="bottom" id="six" src="/assets/img/property2.png" alt="residential block">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="three">
-        <img class="bottom" id="seven" src="/assets/img/property3.png">
+        <img class="bottom" id="seven" src="/assets/img/property3.png" alt="private home">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="four">
-        <img class="bottom" id="eight" src="/assets/img/property4.png">
+        <img class="bottom" id="eight" src="/assets/img/property4.png" alt="City shop premises">
       </div>
-    </div>
-  </a>
+    </a>
   </div>
   <div class="container visible-xs text-center">
     <h1 class="text-center">Property Consultants<br>
       Chartered Surveyors<br>
       Managing Agents<br>
       City &amp; Central</h1>
+  </div>
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">

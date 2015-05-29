@@ -30,5 +30,6 @@
     <?php perch_layout('blog.sidebar'); ?>
   </div>
 </div>
+</div>
 </section>
 <?php perch_layout('global.footer'); ?>
