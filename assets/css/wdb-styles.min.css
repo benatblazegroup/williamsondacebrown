@@ -5705,6 +5705,9 @@ form textarea {
     text-decoration: none;
     color: #7a8e8e; }
 
+.headerimg {
+  margin-bottom: 30px; }
+
 @media screen and (min-width: 768px) {
   .col-sm-offset-point5 {
     margin-left: 13.23333%; }

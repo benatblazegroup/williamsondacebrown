@@ -17,6 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
+	      <img class="headerimg" src="/assets/img/placeholder-wide.png">
         <p>WDB have Chartered Surveyors and property professionals who assist our clients with a variety of commercial property requirements.</p>
         <p>We act for a number of clients including charities, private individuals and property companies. We provide our clients with advice on a variety of different types of commercial property, looking for ways in which to maximise the profitability on their property portfolio. If you have a need for a qualified Chartered Surveyor or property consultant, we offer our clients the following services:</p>
         <ul>
