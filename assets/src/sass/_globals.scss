@@ -14,6 +14,19 @@ p {
   font-family: $font;
   font-weight: 400;
 }
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: $font;
+}
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
 body {
   line-height: 1.8em;
   font-size: 14px;
@@ -36,6 +49,9 @@ ul, ol {
 }
   .white-banner h1, .white-banner p {
     margin-bottom: 30px;
+  }
+  .white-banner p {
+    color: $grey;
   }
   .grey-banner {
     background-color: $light-grey;
@@ -99,12 +115,6 @@ ul, ol {
   .entry-summary {
     margin-top: 10px;
   }
-  .hentry img:hover {
-      opacity: 0.5;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-    }
   .sidebar h3:first-child {
     margin-top: 0;
   }
@@ -165,6 +175,19 @@ ul, ol {
 }
 .img-background {
   background-color: $olive;
+}
+.our-team h3 {
+  color: $olive;
+}
+.feature-box a h4 {
+
+  color: $olive;
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $forest;
+  }
 }
 @media screen and (min-width: 768px) {
   // these exist because I was given a design that is incompatible with the grid

@@ -39,6 +39,8 @@
 }
 h1.home-hero {
   font-size: 30px;
+  line-height: 2.7;
+  font-weight: 400;
 }
 .footer-top {
   background-color: $grey;
@@ -122,3 +124,15 @@ ul.getintouch i, ul.contact-info i {
 .home-circle {
   padding-top:1px!important;
 }
+.team-block {
+  margin-top: 40px;
+}
+.our-team h2 {
+  color: $olive;
+  margin-bottom: 24px;
+}
+.our-team h3 {
+  color: $olive;
+  font-size: 18px;
+}
+

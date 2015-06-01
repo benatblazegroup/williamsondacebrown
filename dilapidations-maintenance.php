@@ -5,11 +5,11 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Dilapidations Maintenance</h1>
+    <h1>Dilapidations maintenance</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li><a href="../services.php">Services</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Dilapidations Maintenance</li>
+      <li class="active">Dilapidations maintenance</li>
     </ol>
   </div>
 </section>

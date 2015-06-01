@@ -1,3 +1,23 @@
+@mixin hoverFadeMouseOn {
+  opacity: 0.5;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@mixin hoverFadeMouseOff {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+img.fadeinout {
+  @include hoverFadeMouseOff;
+
+  &:hover {
+    @include hoverFadeMouseOn;
+  }
+}
+
 /* make keyframes that tell the start state and the end state of our object */
 
 @-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }

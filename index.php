@@ -35,7 +35,7 @@
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
-    <h1 class="home-hero">A Property Consultancy for Today</h1>
+    <h1 class="home-hero">A property consultancy for today</h1>
     <p>A team of Chartered Surveyors and property experts to help with all your professional services, property management, residential &amp; commercial sales and lettings.</p>
     <p>Authorised and Registered with the Financial Services Authority for insurance mediation activities only.</p>
     <div class="home-buttons">

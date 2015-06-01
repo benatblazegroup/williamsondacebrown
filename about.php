@@ -5,14 +5,14 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>About Us</h1>
+    <h1>About Williamson Dace Brown</h1>
     <ol class="breadcrumb">
       <li><a href="index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">About us</li>
+      <li class="active">About Williamson Dace Brown</li>
     </ol>
   </div>
 </section>
-<section class="banner white-banner">
+<section class="banner white-banner our-team">
   <div class="container text-center">
     <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
     <p>The business is an amalgamation of three established companies, Williamsons of Southgate, W. Goodchild &amp; Co, Enfield and St. John &amp; Glossop, Enfield. The partnership has fifty years of experience operating in both commercial and residential property sectors in London and the Home Counties.</p>
@@ -95,7 +95,7 @@
       </div>
       <div class="team-block row">
         <div class="col-sm-3 col-sm-offset-3">
-        <h3>Service charge/Building Insurance</h3>
+        <h3>Service charge and building insurance</h3>
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/sophia-orphanides.png" alt="Sophia Orphanides">
             <p><strong>Sophia Orphanides</strong><br/>
@@ -104,7 +104,7 @@
         </div>
         <div class="col-sm-3">
           <div class="team-feature">
-          <h3>Service charge/Building Insurance</h3>
+          <h3>Service charge and building insurance</h3>
             <img class="img-circle" src="/assets/img/karen-rider.png" alt="Karen Rider">
             <br>
             <p><strong>Karen Rider</strong><br/>
@@ -150,7 +150,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <h4>Reception / Administration</h4>
+          <h3>Reception and administration</h3>
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/thelia-farago.png" alt="Thelia Farago">
             <p><strong>Thelia Farago</strong><br/>
@@ -158,7 +158,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <h4>Reception / Administration</h4>
+          <h3>Reception and administration</h3>
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/lida-litras.png" alt="Lida Litras">
             <br>

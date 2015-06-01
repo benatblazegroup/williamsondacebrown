@@ -19,36 +19,44 @@
     <h3 class="text-center text-olive">As a property consultancy company, we work with clients in a number of different areas:</h3>
     <br>
     <br>
-  <div class="row button-row">
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../commercial-agency.php">
-        <p><strong>Commercial Agency</strong></p>
+  <div class="row feature-row">
+    <div class="col-sm-4 feature-box">
+      <a href="../commercial-agency.php">
+        <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Commercial Agency</strong></h4>
       </a>
     </div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../residential-property.php">
-        <p><strong>Residential Property</strong></p>
+    <div class="col-sm-4 feature-box">
+      <a href="../residential-property.php">
+      <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Residential Property</strong></h4>
       </a>
     </div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../buildings-insurance.php">
-        <p><strong>Building Insurance</strong></p>
+    <div class="col-sm-4 feature-box">
+      <a href="../buildings-insurance.php">
+        <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Building Insurance</strong></h4>
       </a>
     </div>
-    <div class="clearfix"></div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../professional-services.php">
-        <p><strong>Professional Services</strong></p>
+    </div>
+    <br>
+    <div class="row feature-row">
+    <div class="col-sm-4 feature-box">
+      <a href="../professional-services.php">
+        <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Professional Services</strong></h4>
       </a>
     </div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../dilapidations-maintenance.php">
-        <p><strong>Dilapidations &amp; Maintenance</strong></p>
+    <div class="col-sm-4 feature-box">
+      <a href="../dilapidations-maintenance.php">
+        <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Dilapidations &amp; Maintenance</strong></h4>
       </a>
     </div>
-    <div class="col-sm-4">
-      <a class="well well-olive well-about text-center" href="../propertylisting/">
-        <p><strong>Property For Sale &amp; Lettings</strong></p>
+    <div class="col-sm-4 feature-box">
+      <a href="../propertylisting/">
+        <img class="fadeinout" src="../assets/img/placeholder.png">
+        <h4><strong>Property For Sale &amp; Lettings</strong></h4>
       </a>
     </div>
   </div>

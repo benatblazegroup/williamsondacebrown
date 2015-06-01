@@ -3,13 +3,6 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-      //uglify: {
-      //  my_target: {
-      //    files: {
-      //      'assets/js/wdb.min.js': ['assets/js/wdb.js']
-      //    }
-      //  }
-      //},
       concat: {
         options: {
           separator: ';',
@@ -23,7 +16,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           style: 'compressed',
-          sourceMap: true,
+          // sourceMap: true,
         },
         files: {
           'assets/css/wdb-styles.min.css': 'assets/src/sass/wdb.scss'
@@ -33,7 +26,6 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin that provides the tasks.
-  //grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
