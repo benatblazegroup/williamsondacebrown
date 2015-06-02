@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
     <div class="col-sm-8">
-      <h1>Most recent properties:</h1>
+      <h1 class="blog-title">Most recent properties</h1>
       <br>
     <?php
       perch_blog_custom(array(

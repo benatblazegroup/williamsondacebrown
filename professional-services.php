@@ -17,6 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
+        <img class="headerimg" src="/assets/img/placeholder-wide.png">
         <p><strong>WDB offers the full range of professional services connected with running a property portfolio.</strong> We have expertise in:</p>
         <ul>
           <li>Rent reviews</li>

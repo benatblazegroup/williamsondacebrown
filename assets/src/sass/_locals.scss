@@ -126,6 +126,13 @@ ul.getintouch i, ul.contact-info i {
 }
 .team-block {
   margin-top: 40px;
+
+  > div h3 {
+    line-height: 1.4;
+  }
+}
+h1.blog-title {
+  font-weight: 400;
 }
 .our-team h2 {
   color: $olive;

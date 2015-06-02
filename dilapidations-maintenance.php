@@ -17,6 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
+        <img class="headerimg" src="/assets/img/placeholder-wide.png">
         <p>All properties require maintenance and it is our role as managing agents to identify building defects and underlying building problems as early as possible following our routine inspections of managed properties. Our building consultancy team have provided our clients with the guidance and methodical approach needed to identify building defects and effecting required repairs. </p>
         <p>We are proactive in looking for ways to improve properties and where necessary coordinate with other professions, helping our clients to set out a plan on how to take forward repairs and improvements.
         These areas include:</p>

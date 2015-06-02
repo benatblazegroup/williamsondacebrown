@@ -23,19 +23,19 @@
     <div class="col-sm-4 feature-box">
       <a href="../commercial-agency.php">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Commercial Agency</strong></h4>
+        <h4>Commercial Agency</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../residential-property.php">
       <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Residential Property</strong></h4>
+        <h4>Residential Property</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../buildings-insurance.php">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Building Insurance</strong></h4>
+        <h4>Building Insurance</h4>
       </a>
     </div>
     </div>
@@ -44,19 +44,19 @@
     <div class="col-sm-4 feature-box">
       <a href="../professional-services.php">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Professional Services</strong></h4>
+        <h4>Professional Services</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../dilapidations-maintenance.php">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Dilapidations &amp; Maintenance</strong></h4>
+        <h4>Dilapidations &amp; Maintenance</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../propertylisting/">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4><strong>Property For Sale &amp; Lettings</strong></h4>
+        <h4>Property For Sale &amp; Lettings</h4>
       </a>
     </div>
   </div>

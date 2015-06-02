@@ -42,7 +42,7 @@
 
 		        /* --------------------------- POSTS BY CATEGORY --------------------------- */
 		        if (perch_get('cat')) {
-		            echo '<h1> '.perch_blog_category(perch_get('cat'), true).' Properties</h1>';
+		            echo '<h1 class="blog-title"> '.perch_blog_category(perch_get('cat'), true).' Properties</h1>';
 
 		            perch_blog_custom(array(
 							'category'   => perch_get('cat'),
@@ -61,7 +61,7 @@
 
 		        /* --------------------------- POSTS BY TAG --------------------------- */
 		        if (perch_get('tag')) {
-		            echo '<h1>All  '.perch_blog_tag(perch_get('tag'), true).' Properties</h1>';
+		            echo '<h1 class="blog-title">All  '.perch_blog_tag(perch_get('tag'), true).' Properties</h1>';
 
 		            perch_blog_custom(array(
 							'tag'   	 => perch_get('tag'),
@@ -93,7 +93,7 @@
 						$title_date_format = '%B, %Y';
 		            }
 
-		            echo '<h1>All Properties from  '.strftime($title_date_format, strtotime($date_from)).'</h1>';
+		            echo '<h1 class="blog-title">All Properties from  '.strftime($title_date_format, strtotime($date_from)).'</h1>';
 
 		            perch_blog_custom(array(
 							'filter'     => 'postDateTime',
@@ -113,7 +113,7 @@
 		        /* --------------------------- POSTS BY AUTHOR --------------------------- */
 		        if (perch_get('author')) {
 
-		        	echo '<h1>Properties by '.perch_blog_author(perch_get('author'), array(
+		        	echo '<h1 class="blog-title">Properties by '.perch_blog_author(perch_get('author'), array(
 		        											'template' => 'author_name.html',
 		        											), true).'</h1>';
 

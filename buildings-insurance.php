@@ -17,6 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
+        <img class="headerimg" src="/assets/img/placeholder-wide.png">
         <p>Forming part of our complete service to landlords and tenants, Williamson &amp; Dace are regulated by the Financial Conduct Authority, in the conduct of insurance business.</p>
         <p>To complement our service to clients, a close and long-standing agency has been developed with leading companies offering excellent building insurance policies for residential and commercial property. Valuations are provided where necessary. </p>
         <p>We will be pleased to assist with your enquiries on property cover for your building, whether or not we are involved with letting and management of your building. We are confident that in many cases, we can match or improve upon your existing policy and premium.</p>

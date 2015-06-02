@@ -17,6 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
+        <img class="headerimg" src="/assets/img/placeholder-wide.png">
         <p>We let and manage over 300 residential properties. With our long standing lettings team, we provide a professional service. </p>
         <p>Whether you are a private landlord or a tenant, for over 50 years WDB have developed a trusted lettings team to provide help and advice on properties in Southgate, North London and the Home Counties.</p>
         <p>We can provide rent guarantee insurance through a credit reference agency which guarantees rent payments and covers legal costs should your tenant default on their tenancy. </p>
