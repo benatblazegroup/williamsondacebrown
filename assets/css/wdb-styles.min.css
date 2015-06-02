@@ -5544,15 +5544,6 @@ p {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400; }
 
-body,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
 h1 {
   font-weight: 600;
   font-size: 30px; }
@@ -5702,7 +5693,6 @@ form textarea {
   color: #9fa88b; }
   .feature-box a h4:hover,
   .feature-box a h4:active {
-    text-decoration: none;
     color: #7a8e8e; }
 
 .headerimg {
@@ -5842,6 +5832,9 @@ ul.getintouch i, ul.contact-info i {
 .our-team h3 {
   color: #9fa88b;
   font-size: 18px; }
+
+.feature-row {
+  padding: 20px 0; }
 
 @media screen and (max-width: 767px) {
   .navbar-header button {

@@ -14,15 +14,6 @@ p {
   font-family: $font;
   font-weight: 400;
 }
-body,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: $font;
-}
 h1 {
   font-weight: 600;
   font-size: 30px;
@@ -180,12 +171,10 @@ ul, ol {
   color: $olive;
 }
 .feature-box a h4 {
-
   color: $olive;
 
   &:hover,
   &:active {
-    text-decoration: none;
     color: $forest;
   }
 }
