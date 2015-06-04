@@ -22,20 +22,20 @@
   <div class="row feature-row">
     <div class="col-sm-4 feature-box">
       <a href="../commercial-agency.php">
-        <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Commercial Agency</h4>
+        <img class="fadeinout" src="../assets/img/comm-placeholder-sq.png">
+        <h4>Commercial agency</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../residential-property.php">
-      <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Residential Property</h4>
+      <img class="fadeinout" src="../assets/img/residential_placeholder-sq.png">
+        <h4>Residential property</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../buildings-insurance.php">
-        <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Building Insurance</h4>
+        <img class="fadeinout" src="../assets/img/Insurance-placeholder-sq.png">
+        <h4>Building insurance</h4>
       </a>
     </div>
     </div>
@@ -43,20 +43,20 @@
     <div class="row feature-row">
     <div class="col-sm-4 feature-box">
       <a href="../professional-services.php">
-        <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Professional Services</h4>
+        <img class="fadeinout" src="../assets/img/Pro-services-placeholder-sq.png">
+        <h4>Professional services</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../dilapidations-maintenance.php">
-        <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Dilapidations &amp; Maintenance</h4>
+        <img class="fadeinout" src="../assets/img/Dilap-and-maint-placeholder-sq.png">
+        <h4>Dilapidations and maintenance</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../propertylisting/">
         <img class="fadeinout" src="../assets/img/placeholder.png">
-        <h4>Property For Sale &amp; Lettings</h4>
+        <h4>Property for sale and Lettings</h4>
       </a>
     </div>
   </div>

@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
-	      <img class="headerimg" src="/assets/img/placeholder-wide.png">
+	      <img class="headerimg" src="/assets/img/comm-placeholder.png">
         <p>WDB have Chartered Surveyors and property professionals who assist our clients with a variety of commercial property requirements.</p>
         <p>We act for a number of clients including charities, private individuals and property companies. We provide our clients with advice on a variety of different types of commercial property, looking for ways in which to maximise the profitability on their property portfolio. If you have a need for a qualified Chartered Surveyor or property consultant, we offer our clients the following services:</p>
         <ul>
@@ -33,14 +33,14 @@
         </ul>
       </div>
       <div class="col-sm-4 sidebar">
-        <h3>Our Services:</h3>
+        <h3>Our services:</h3>
         <ul class="nav nav-stacked nav-pills">
-          <li class="active"><a href="commercial-agency.php">Commercial Agency</a></li>
-          <li><a href="residential-property.php">Residential Property</a></li>
-          <li><a href="buildings-insurance.php">Building Insurance</a></li>
-          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="professional-services.php">Professional Services</a></li>
-          <li><a href="propertylisting/">Property Listing</a></li>
+          <li class="active"><a href="commercial-agency.php">Commercial agency</a></li>
+          <li><a href="residential-property.php">Residential property</a></li>
+          <li><a href="buildings-insurance.php">Building insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations and maintenance</a></li>
+          <li><a href="professional-services.php">Professional services</a></li>
+          <li><a href="propertylisting/">Property listing</a></li>
         </ul>
         <?php perch_layout('contact.sidebar'); ?>
       </div>

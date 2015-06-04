@@ -17,20 +17,20 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
-        <img class="headerimg" src="/assets/img/placeholder-wide.png">
+        <img class="headerimg" src="/assets/img/Insurance-placeholder.png">
         <p>Forming part of our complete service to landlords and tenants, Williamson &amp; Dace are regulated by the Financial Conduct Authority, in the conduct of insurance business.</p>
         <p>To complement our service to clients, a close and long-standing agency has been developed with leading companies offering excellent building insurance policies for residential and commercial property. Valuations are provided where necessary. </p>
         <p>We will be pleased to assist with your enquiries on property cover for your building, whether or not we are involved with letting and management of your building. We are confident that in many cases, we can match or improve upon your existing policy and premium.</p>
       </div>
       <div class="col-sm-4 sidebar">
-        <h3>Our Services:</h3>
+        <h3>Our services:</h3>
         <ul class="nav nav-stacked nav-pills">
-          <li><a href="commercial-agency.php">Commercial Agency</a></li>
-          <li><a href="residential-property.php">Residential Property</a></li>
-          <li class="active"><a href="buildings-insurance.php">Building Insurance</a></li>
-          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="professional-services.php">Professional Services</a></li>
-          <li><a href="propertylisting/">Property Listing</a></li>
+          <li><a href="commercial-agency.php">Commercial agency</a></li>
+          <li><a href="residential-property.php">Residential property</a></li>
+          <li class="active"><a href="buildings-insurance.php">Building insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations and maintenance</a></li>
+          <li><a href="professional-services.php">Professional services</a></li>
+          <li><a href="propertylisting/">Property listing</a></li>
         </ul>
         <?php perch_layout('contact.sidebar'); ?>
       </div>

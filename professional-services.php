@@ -5,11 +5,11 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Professional Services</h1>
+    <h1>Professional services</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li><a href="../services.php">Services</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Professional Services</li>
+      <li class="active">Professional services</li>
     </ol>
   </div>
 </section>
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
-        <img class="headerimg" src="/assets/img/placeholder-wide.png">
+        <img class="headerimg" src="/assets/img/Pro-services-placeholder.png">
         <p><strong>WDB offers the full range of professional services connected with running a property portfolio.</strong> We have expertise in:</p>
         <ul>
           <li>Rent reviews</li>
@@ -41,14 +41,14 @@
         </p>
       </div>
       <div class="col-sm-4 sidebar">
-        <h3>Our Services:</h3>
+        <h3>Our services:</h3>
         <ul class="nav nav-stacked nav-pills">
-          <li><a href="commercial-agency.php">Commercial Agency</a></li>
-          <li><a href="residential-property.php">Residential Property</a></li>
-          <li><a href="buildings-insurance.php">Building Insurance</a></li>
-          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
-          <li class="active"><a href="professional-services.php">Professional Services</a></li>
-          <li><a href="propertylisting/">Property Listing</a></li>
+          <li><a href="commercial-agency.php">Commercial agency</a></li>
+          <li><a href="residential-property.php">Residential property</a></li>
+          <li><a href="buildings-insurance.php">Building insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations and maintenance</a></li>
+          <li class="active"><a href="professional-services.php">Professional services</a></li>
+          <li><a href="propertylisting/">Property listing</a></li>
         </ul>
         <?php perch_layout('contact.sidebar'); ?>
       </div>

@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
-        <img class="headerimg" src="/assets/img/placeholder-wide.png">
+        <img class="headerimg" src="/assets/img/Dilap-and-maint-placeholder.png">
         <p>All properties require maintenance and it is our role as managing agents to identify building defects and underlying building problems as early as possible following our routine inspections of managed properties. Our building consultancy team have provided our clients with the guidance and methodical approach needed to identify building defects and effecting required repairs. </p>
         <p>We are proactive in looking for ways to improve properties and where necessary coordinate with other professions, helping our clients to set out a plan on how to take forward repairs and improvements.
         These areas include:</p>
@@ -32,14 +32,14 @@
         WDB has a subsidiary, Williamsons Maintenance Ltd, who can respond to emergencies or small building works quickly and efficiently. Thereby providing peace of mind in the event of a crisis. </p>
       </div>
       <div class="col-sm-4 sidebar">
-        <h3>Our Services:</h3>
+        <h3>Our services:</h3>
         <ul class="nav nav-stacked nav-pills">
-          <li><a href="commercial-agency.php">Commercial Agency</a></li>
-          <li><a href="residential-property.php">Residential Property</a></li>
-          <li><a href="buildings-insurance.php">Building Insurance</a></li>
-          <li class="active"><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="professional-services.php">Professional Services</a></li>
-          <li><a href="propertylisting/">Property Listing</a></li>
+          <li><a href="commercial-agency.php">Commercial agency</a></li>
+          <li><a href="residential-property.php">Residential property</a></li>
+          <li><a href="buildings-insurance.php">Building insurance</a></li>
+          <li class="active"><a href="dilapidations-maintenance.php">Dilapidations and maintenance</a></li>
+          <li><a href="professional-services.php">Professional services</a></li>
+          <li><a href="propertylisting/">Property listing</a></li>
         </ul>
         <?php perch_layout('contact.sidebar'); ?>
       </div>

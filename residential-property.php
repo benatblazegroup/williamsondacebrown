@@ -5,11 +5,11 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Residential Property</h1>
+    <h1>Residential property</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li><a href="../services.php">Services</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Residential Property</li>
+      <li class="active">Residential property</li>
     </ol>
   </div>
 </section>
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 content-container">
-        <img class="headerimg" src="/assets/img/placeholder-wide.png">
+        <img class="headerimg" src="/assets/img/residential_placeholder.png">
         <p>We let and manage over 300 residential properties. With our long standing lettings team, we provide a professional service. </p>
         <p>Whether you are a private landlord or a tenant, for over 50 years WDB have developed a trusted lettings team to provide help and advice on properties in Southgate, North London and the Home Counties.</p>
         <p>We can provide rent guarantee insurance through a credit reference agency which guarantees rent payments and covers legal costs should your tenant default on their tenancy. </p>
@@ -41,14 +41,14 @@
         </div>
       </div>
       <div class="col-sm-4 sidebar">
-        <h3>Our Services:</h3>
+        <h3>Our services:</h3>
         <ul class="nav nav-stacked nav-pills">
-          <li><a href="commercial-agency.php">Commercial Agency</a></li>
-          <li class="active"><a href="residential-property.php">Residential Property</a></li>
-          <li><a href="buildings-insurance.php">Building Insurance</a></li>
-          <li><a href="dilapidations-maintenance.php">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="professional-services.php">Professional Services</a></li>
-          <li><a href="propertylisting/">Property Listing</a></li>
+          <li><a href="commercial-agency.php">Commercial agency</a></li>
+          <li class="active"><a href="residential-property.php">Residential property</a></li>
+          <li><a href="buildings-insurance.php">Building insurance</a></li>
+          <li><a href="dilapidations-maintenance.php">Dilapidations and maintenance</a></li>
+          <li><a href="professional-services.php">Professional services</a></li>
+          <li><a href="propertylisting/">Property listing</a></li>
         </ul>
         <?php perch_layout('contact.sidebar'); ?>
       </div>

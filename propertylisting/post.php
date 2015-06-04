@@ -2,10 +2,10 @@
 perch_layout('blog.header'); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Property For Sale &amp; To Let</h1>
+    <h1>Property for sale and Lettings</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Property For Sale &amp; To Let</li>
+      <li class="active">Property for sale and Lettings</li>
     </ol>
   </div>
 </section>

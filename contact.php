@@ -5,7 +5,7 @@
 )); ?>
 <section class="banner grey-banner">
   <div class="container">
-    <h1>Contact Us</h1>
+    <h1>Contact us</h1>
     <ol class="breadcrumb">
       <li><a href="index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
       <li class="active">Contact us</li>

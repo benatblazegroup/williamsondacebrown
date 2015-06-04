@@ -1,14 +1,14 @@
 <?php include('../siteadmin/runtime.php');
   perch_layout('blog.header', array(
-    'title'=>'Property Listing &#124; WDB Property - Williamson Dace Brown',
+    'title'=>'Property listing &#124; WDB Property - Williamson Dace Brown',
     'desc'=>'We provide a wide range of holistic, reliable and expert advice.',
 )); ?>
 <section class="banner grey-banner">
 	<div class="container">
-		<h1>Property Listings</h1>
+		<h1>Property listings</h1>
     <ol class="breadcrumb">
       <li><a href="../index.php">Home</a> <i class="fa fa-chevron-right"></i></li>
-      <li class="active">Property Listing</li>
+      <li class="active">Property listing</li>
     </ol>
 	</div>
 </section>
@@ -42,7 +42,7 @@
 
 		        /* --------------------------- POSTS BY CATEGORY --------------------------- */
 		        if (perch_get('cat')) {
-		            echo '<h1 class="blog-title"> '.perch_blog_category(perch_get('cat'), true).' Properties</h1>';
+		            echo '<h1 class="blog-title"> '.perch_blog_category(perch_get('cat'), true).' properties</h1>';
 
 		            perch_blog_custom(array(
 							'category'   => perch_get('cat'),
@@ -61,7 +61,7 @@
 
 		        /* --------------------------- POSTS BY TAG --------------------------- */
 		        if (perch_get('tag')) {
-		            echo '<h1 class="blog-title">All  '.perch_blog_tag(perch_get('tag'), true).' Properties</h1>';
+		            echo '<h1 class="blog-title">All  '.perch_blog_tag(perch_get('tag'), true).' properties</h1>';
 
 		            perch_blog_custom(array(
 							'tag'   	 => perch_get('tag'),
@@ -93,7 +93,7 @@
 						$title_date_format = '%B, %Y';
 		            }
 
-		            echo '<h1 class="blog-title">All Properties from  '.strftime($title_date_format, strtotime($date_from)).'</h1>';
+		            echo '<h1 class="blog-title">All properties from  '.strftime($title_date_format, strtotime($date_from)).'</h1>';
 
 		            perch_blog_custom(array(
 							'filter'     => 'postDateTime',
