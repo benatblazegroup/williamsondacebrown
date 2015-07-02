@@ -17,7 +17,8 @@
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="three">
-        <img class="bottom" id="seven" src="/assets/img/managing-agents.png" alt="row of shops">
+        <img class="bottom" id="seven" src="/assets/img/managing-agents.png" 
+          alt="row of shops">
       </div>
     </a>
     <a href="services.php">
