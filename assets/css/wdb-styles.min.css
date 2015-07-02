@@ -5557,6 +5557,11 @@ a {
   a:hover, a:focus {
     color: #646568; }
 
+a.main {
+  color: #9fa88b; }
+  a.main:hover, a.main:focus {
+    color: #dee2d4; }
+
 ul, ol {
   padding-left: 0; }
 

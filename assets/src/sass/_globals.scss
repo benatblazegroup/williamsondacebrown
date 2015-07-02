@@ -29,6 +29,13 @@ a {
     color: $grey;
   }
 }
+a.main {
+  color: $olive;
+
+  &:hover, &:focus {
+    color: $light-olive;
+  }
+}
 ul, ol {
   padding-left: 0;
 }

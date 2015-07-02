@@ -33,6 +33,7 @@
           <li>Property checks </li>
           <li>Maintenance management</li>
         </ul>
+        <p><a class="main" href="/assets/img/wdb-pricelist-062015.pdf">Click here to view a listing of our fees.</a></p>
         <hr>
         <div class="imagerow">
           <img src="assets/img/TDS.jpg" title="Tenancy Deposit Scheme member">

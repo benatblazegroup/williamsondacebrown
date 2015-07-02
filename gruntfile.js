@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           'assets/css/wdb-styles.min.css': 'assets/src/sass/wdb.scss'
         }
       }
-    }
+    },
   });
 
   // Load the plugin that provides the tasks.

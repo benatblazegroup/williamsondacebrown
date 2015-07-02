@@ -29,8 +29,7 @@
           <h4>Business hours</h4>
           <ul>
             <li>Monday - Friday: 9am - 5pm</li>
-            <li>Saturday: 9am - 1pm</li>
-            <li>Sunday: Closed</li>
+            <li>Saturday &amp; Sunday: Closed</li>
           </ul>
       </div>
     </div>

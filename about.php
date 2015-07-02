@@ -14,9 +14,7 @@
 </section>
 <section class="banner white-banner our-team">
   <div class="container text-center">
-    <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
-    <p>The business is an amalgamation of three established companies, Williamsons of Southgate, W. Goodchild &amp; Co, Enfield and St. John &amp; Glossop, Enfield. The partnership has fifty years of experience operating in both commercial and residential property sectors in London and the Home Counties.</p>
-      <p>From our office in Southgate, North London, we have been looking after client’s property building up long term relationships with both landlords and tenants for the past fifty years. </p>
+    <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. The business is an amalgamation of three established companies, Williamsons of Southgate, W. Goodchild &amp; Co, Enfield and St. John &amp; Glossop, Enfield. The partnership has fifty years of experience operating in both commercial and residential property sectors in London and the Home Counties. From our office in Southgate, North London, we have been looking after client’s property building up long term relationships with both landlords and tenants for the past fifty years. </p>
       <hr>
       <h2>Our Team</h2>
       <p>Both partners of WDB are qualified chartered surveyors and the firm is therefore regulated by the RICS (Royal Institution of Chartered Surveyors). The RICS are the world's leading professional body for qualifications and standards in land, property and construction. We are also regulated by the Tenancy Deposit Scheme and the Financial Conduct Authority.</p>
@@ -63,7 +61,7 @@
         </div>
       </div>
       <div class="team-block row">
-        <div class="col-sm-3 col-sm-offset-point5">
+        <div class="col-sm-3 col-sm-offset-3">
         <h3>Residential Lettings</h3>
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/jacky-parnell.png" alt="Jacqueline Parnell">
@@ -80,16 +78,6 @@
             <p><strong>Kristina Varnava</strong><br/>
                Lettings Negotiator<br/>
                020 8920 2499</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-        <h3>Residential Lettings</h3>
-          <div class="team-feature">
-            <img class="img-circle img-background" src="/assets/img/nopicture.png" alt="Placeholder">
-            <br>
-            <p><strong>Janet Reardon</strong><br/>
-               Lettings Negotiator<br/>
-               0208 886 4407</p>
           </div>
         </div>
       </div>
@@ -113,7 +101,7 @@
         </div>
       </div>
       <div class="team-block row">
-        <div class="col-sm-3 col-sm-offset-point5">
+        <div class="col-sm-3 col-sm-offset-3">
           <h3>Accounts</h3>
           <div class="team-feature">
             <img class="img-circle" src="/assets/img/alan-dewberry.png" alt="Alan Dewberry">
@@ -127,15 +115,6 @@
             <img class="img-circle" src="/assets/img/sheila-wilson.png" alt="Sheila Wilson">
             <br>
             <p><strong>Sheila Wilson</strong><br/>
-            0208 886 4407</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-        <h3>Accounts</h3>
-          <div class="team-feature">
-            <img class="img-circle img-background" src="/assets/img/nopicture.png" alt="Placeholder">
-            <br>
-            <p><strong>Alison Bryant</strong><br/>
             0208 886 4407</p>
           </div>
         </div>
