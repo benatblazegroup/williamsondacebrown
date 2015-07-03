@@ -39,6 +39,10 @@ a.main {
 ul, ol {
   padding-left: 0;
 }
+.preheader div a {
+  color: white;
+  text-decoration: underline;
+}
 .img-circle {
   border: 1px solid $light-grey;
   margin-top: 10px;

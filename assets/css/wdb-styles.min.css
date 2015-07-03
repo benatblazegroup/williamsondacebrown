@@ -5565,6 +5565,10 @@ a.main {
 ul, ol {
   padding-left: 0; }
 
+.preheader div a {
+  color: white;
+  text-decoration: underline; }
+
 .img-circle {
   border: 1px solid #e3e3e4;
   margin-top: 10px; }
@@ -5747,7 +5751,7 @@ form textarea {
 
 h1.home-hero {
   font-size: 30px;
-  line-height: 2.7;
+  line-height: 1.7;
   font-weight: 400; }
 
 .footer-top {
@@ -5929,6 +5933,9 @@ https://gist.github.com/larrybotha/7881691
 /* 2 */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src*=".svg"] {
-    width: 100%; }
-  .navbar-brand img {
-    height: 70px; } }
+    width: inherit; }
+  .navbar-brand {
+    height: 70px;
+    width: 470px; }
+    .navbar-brand > img {
+      width: 70%; } }
