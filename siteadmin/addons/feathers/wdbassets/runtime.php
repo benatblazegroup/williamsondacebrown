@@ -36,7 +36,7 @@ class PerchFeather_wdbassets extends PerchFeather
         // }
         if (!$this->component_registered('wdb')) {
           $out[] = $this->_script_tag(array(
-            'src'=>'/assets/js/wdb.js'
+            'src'=>'/assets/js/wdb.min.js'
           ));
           $this->register_component('wdb');
         }
