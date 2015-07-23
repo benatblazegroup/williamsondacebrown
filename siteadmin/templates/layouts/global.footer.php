@@ -15,7 +15,7 @@
           <li><a href="buildings-insurance.php" title="Building Insurance">Building Insurance</a></li>
           <li><a href="professional-services.php" title="Professional Services">Professional Services</a></li>
           <li><a href="dilapidations-maintenance.php" title="Dilapidations &amp; Maintenance">Dilapidations &amp; Maintenance</a></li>
-          <li><a href="../propertylisting/index.php" title="Property For Sale &amp; Lettings">Property For Sale &amp; Lettings</a></li>
+          <li><a href="../propertylisting/index.php" title="Property For Sale &amp; Lettings">Property Listings</a></li>
         </ul>
       </div>
       <div class="col-sm-4">
@@ -41,7 +41,7 @@
             <li class="active"><a href="../index.php">Home</a></li>
             <li><a href="../about.php">About</a></li>
             <li><a href="../services.php">Services</a></li>
-            <li><a href="../propertylisting/index.php">Listings</a></li>
+            <li><a href="../propertylisting/index.php">Property Listings</a></li>
             <!-- <li><a href="../propertylisting/index.php">Listings</a></li> -->
             <li><a href="../contact.php">Contact</a></li>
           </ul>

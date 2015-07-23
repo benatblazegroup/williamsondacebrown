@@ -7,33 +7,23 @@
   <div class="container hidden-xs">
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="one">
-          <img class="bottom" id="five" alt="residential block in grounds"
-               srcset=""
-               src="/assets/img/prop-consultants.png"
-          >
+          <img class="bottom" id="five" src="/assets/img/prop-consultants.png" alt="residential block in grounds">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="two">
-        <img class="bottom" id="six" alt="old residential house doorways"
-             srcset=""
-             src="/assets/img/chartered-surveyors.png" >
+        <img class="bottom" id="six" src="/assets/img/chartered-surveyors.png" alt="old residential house doorways">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="three">
-        <img class="bottom" id="seven" alt="row of shops"
-             srcset=""
-             src="/assets/img/managing-agents.png" 
-        >
+        <img class="bottom" id="seven" src="/assets/img/managing-agents.png" 
+          alt="row of shops">
       </div>
     </a>
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="four">
-        <img class="bottom" id="eight" alt="City shop premises"
-             srcset=""
-             src="/assets/img/city-central.png"
-        >
+        <img class="bottom" id="eight" src="/assets/img/city-central.png" alt="City shop premises">
       </div>
     </a>
   </div>

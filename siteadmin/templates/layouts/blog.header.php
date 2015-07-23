@@ -32,8 +32,13 @@
           <li class="active"><a href="../index.php">Home</a></li>
           <li><a href="../about.php">About</a></li>
           <li><a href="../services.php">Services</a></li>
-          <li><a href="../propertylisting/index.php">For sale and Lettings</a></li>
-          <!-- <li><a href="../propertylisting/index.php">Listings</a></li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Property Listings<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../propertylisting/archive.php?cat=commercial">Commercial Listings</a></li>
+                <li><a href="../propertylisting/archive.php?cat=residential">Residential Listings</a></li>
+              </ul>
+          </li>
           <li><a href="../contact.php">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->

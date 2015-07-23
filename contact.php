@@ -22,9 +22,11 @@
       <div class="col-sm-6 col-sm-offset-1">
         <h3>By another method:</h3>
         <ul class="contact-info">
-          <li><a href="mailto:info@wdbproperty.com"><i class="fa fa-envelope"></i> mail@wdbproperty.com</a></li>
-          <li><i class="fa fa-phone"></i> 020 8886 4407</li>
-          <li><i class="fa fa-home"></i> 22 Cannon Hill, Southgate, London N14 6BY</li>
+          <li><a href="mailto:info@wdbproperty.com"><i class="fa fa-envelope"></i><span class="sr-only">eMail</span> mail@wdbproperty.com</a></li>
+          <li><i class="fa fa-phone"></i><span class="sr-only">Phone</span> 020 8886 4407</li>
+          <li><i class="fa fa-fax"></i><span class="sr-only">Fax</span> 020 8882 3449</li>
+          <li><i class="fa fa-home"></i><span class="sr-only">Post</span> 22 Cannon Hill, Southgate, London N14 6BY</li>
+
           <br>
         </ul>
         <div class="iframewrapper">
