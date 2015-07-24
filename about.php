@@ -23,6 +23,7 @@
         <img class="img-circle" src="/assets/img/kate-dace.png" alt="Kate Dace">
         <p><strong>Kate Dace</strong><br/>
            Partner, Chartered Surveyor<br/>
+           k.dace@wdbproperty.co.uk<br/>
            020 886 4407</p>
       </div>
     </div>
@@ -33,6 +34,7 @@
         <br>
         <p><strong>Alex Brown</strong><br/>
            Partner, Chartered Surveyor<br/>
+           alex@wdbproperty.co.uk<br/>
            020 886 4407</p>
       </div>
     </div>
@@ -41,12 +43,13 @@
     <h2>Our Team</h2>
     <p>Both partners of WDB are qualified chartered surveyors and the firm is therefore regulated by the RICS (Royal Institution of Chartered Surveyors). The RICS are the world's leading professional body for qualifications and standards in land, property and construction. We are also regulated by the Tenancy Deposit Scheme and the Financial Conduct Authority.</p>
     <div class="team-block row">
-      <div class="col-sm-3 col-sm-offset-3">
+      <div class="col-sm-3">
         <h3>Graduate Surveyor</h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/tom-dace.png" alt="Tom Dace">
           <p><strong>Thomas Dace</strong><br/>
              Graduate Surveyor<br/>
+             thomas@wdbproperty.co.uk<br/>
              020 8920 2496</p>
         </div>
       </div>
@@ -57,17 +60,17 @@
           <br>
           <p><strong>Zeki Ansal</strong><br/>
              Graduate Building Surveyor<br/>
+             zeki@wdbproperty.co.uk<br/>
              020 8920 2497</p>
         </div>
       </div>
-    </div>
-    <div class="team-block row">
-      <div class="col-sm-3 col-sm-offset-3">
+      <div class="col-sm-3">
       <h3>Residential Lettings</h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/jacky-parnell.png" alt="Jacqueline Parnell">
           <p><strong>Jacqueline Parnell</strong><br/>
              Senior Lettings Negotiator<br/>
+             jacqueline@wdbproperty.co.uk<br/>
              020 8920 2494</p>
         </div>
       </div>
@@ -78,16 +81,18 @@
           <br>
           <p><strong>Kristina Varnava</strong><br/>
              Lettings Negotiator<br/>
+             kristina@wdbproperty.co.uk<br/>
              020 8920 2499</p>
         </div>
       </div>
     </div>
     <div class="team-block row">
-      <div class="col-sm-3 col-sm-offset-3">
+      <div class="col-sm-3">
       <h3>Service charge and building insurance</h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/sophia-orphanides.png" alt="Sophia Orphanides">
           <p><strong>Sophia Orphanides</strong><br/>
+          sophia@wdbproperty.co.uk<br/>
           0208 886 4407</p>
         </div>
       </div>
@@ -97,35 +102,37 @@
           <img class="img-circle" src="/assets/img/karen-rider.png" alt="Karen Rider">
           <br>
           <p><strong>Karen Rider</strong><br/>
-          0208 886 4407</p>
-        </div>
-      </div>
-    </div>
-    <div class="team-block row">
-      <div class="col-sm-3 col-sm-offset-3">
-        <h3>Accounts</h3>
-        <div class="team-feature">
-          <img class="img-circle" src="/assets/img/alan-dewberry.png" alt="Alan Dewberry">
-          <p><strong>Alan Dewberry</strong><br/>
+          karen@wdbproperty.co.uk<br/>
           0208 886 4407</p>
         </div>
       </div>
       <div class="col-sm-3">
-        <h3>Accounts</h3>
+        <h3>Accounts<br/><br/></h3>
+        <div class="team-feature">
+          <img class="img-circle" src="/assets/img/alan-dewberry.png" alt="Alan Dewberry">
+          <p><strong>Alan Dewberry</strong><br/>
+          alan@wdbproperty.co.uk<br/>
+          0208 886 4407</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <h3>Accounts<br/><br/></h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/sheila-wilson.png" alt="Sheila Wilson">
           <br>
           <p><strong>Sheila Wilson</strong><br/>
+          sheila@wdbproperty.co.uk<br/>
           0208 886 4407</p>
         </div>
       </div>
     </div>
     <div class="team-block row">
       <div class="col-sm-3">
-        <h3>Secretary</h3>
+        <h3>Secretary<br/><br/></h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/pauline-fellerman.png" alt="Pauline Fellerman">
           <p><strong>Pauline Fellerman</strong><br/>
+          pauline@wdbproperty.co.uk<br/>
           0208 886 4407</p>
         </div>
       </div>
@@ -134,7 +141,8 @@
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/thelia-farago.png" alt="Thelia Farago">
           <p><strong>Thelia Farago</strong><br/>
-             020 886 4407</p>
+            reception@wdbproperty.co.uk<br/>
+            020 886 4407</p>
         </div>
       </div>
       <div class="col-sm-3">
@@ -143,14 +151,16 @@
           <img class="img-circle" src="/assets/img/lida-litras.png" alt="Lida Litras">
           <br>
           <p><strong>Lida Litras</strong><br/>
-             020 886 4407</p>
+            reception@wdbproperty.co.uk<br/>
+            020 886 4407</p>
         </div>
       </div>
       <div class="col-sm-3">
-        <h3>Maintenance</h3>
+        <h3>Maintenance<br/><br/></h3>
         <div class="team-feature">
           <img class="img-circle" src="/assets/img/michael-coyne.png" alt="Michael Coyne">
           <p><strong>Michael Coyne</strong><br/>
+          reception@wdbproperty.co.uk<br/>
           0208 886 4407</p>
         </div>
       </div>
