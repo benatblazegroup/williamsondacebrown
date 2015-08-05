@@ -35,7 +35,7 @@ grunt.initConfig({
         files: {
          'assets/css/wdb-styles.min.css': ['assets/css/wdb-styles.css']
         }
-      }
+     }
     },
     imagemin: {                          // Task 
       dynamic: {                         // Another target 
@@ -52,7 +52,7 @@ grunt.initConfig({
   // Load the plugin that provides the tasks.
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  //grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
@@ -61,7 +61,7 @@ grunt.initConfig({
     'concat',
     'uglify',
     'sass',
-    'imagemin',
+    //'imagemin',
     'cssmin',
     ]);
 

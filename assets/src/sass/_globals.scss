@@ -193,12 +193,3 @@ ul, ol {
 .headerimg {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) {
-  // these exist because I was given a design that is incompatible with the grid
-  .col-sm-offset-point5 {
-    margin-left: 13.23333%;
-  }
-  .col-sm-offset-4point5 {
-      margin-left: 38.7233%;
-  }
-}
