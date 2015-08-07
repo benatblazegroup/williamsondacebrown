@@ -5694,12 +5694,6 @@ form textarea {
 .headerimg {
   margin-bottom: 30px; }
 
-@media screen and (min-width: 768px) {
-  .col-sm-offset-point5 {
-    margin-left: 13.23333%; }
-  .col-sm-offset-4point5 {
-    margin-left: 38.7233%; } }
-
 .preheader {
   padding: 3px 0;
   color: white;
