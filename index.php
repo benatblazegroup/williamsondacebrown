@@ -5,27 +5,47 @@
 )); ?>
 <section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
-    <a href="services.php">
-      <div class="col-sm-3 home-circle" id="one">
-          <img class="bottom" id="five" src="/assets/img/prop-consultants.png" alt="residential block in grounds">
+    <div id="wdb-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#wdb-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#wdb-carousel" data-slide-to="1"></li>
+        <li data-target="#wdb-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="building" alt="...">
+        </div>
+        <div class="item">
+          <img src="badge" alt="...">
+        </div>
+        <div class="item">
+          <img src="building" alt="...">
+        </div>
+        <div class="item">
+          <img src="badge" alt="...">
+        </div>
+        <div class="item ">
+          <img src="building" alt="...">
+        </div>
+        <div class="item">
+          <img src="badge" alt="...">
+        </div>
+        <div class="item">
+          <img src="building" alt="...">
+        </div>
+        <div class="item">
+          <img src="badge" alt="...">
+        </div>
       </div>
-    </a>
-    <a href="services.php">
-      <div class="col-sm-3 home-circle" id="two">
-        <img class="bottom" id="six" src="/assets/img/chartered-surveyors.png" alt="old residential house doorways">
-      </div>
-    </a>
-    <a href="services.php">
-      <div class="col-sm-3 home-circle" id="three">
-        <img class="bottom" id="seven" src="/assets/img/managing-agents.png" 
-          alt="row of shops">
-      </div>
-    </a>
-    <a href="services.php">
-      <div class="col-sm-3 home-circle" id="four">
-        <img class="bottom" id="eight" src="/assets/img/city-central.png" alt="City shop premises">
-      </div>
-    </a>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#wdb-carousel" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#wdb-carousel" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
   <div class="container visible-xs text-center">
     <h1 class="text-center">Property consultants<br>
