@@ -5,37 +5,38 @@
 )); ?>
 <section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
-    <div id="wdb-carousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#wdb-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#wdb-carousel" data-slide-to="1"></li>
-        <li data-target="#wdb-carousel" data-slide-to="2"></li>
-      </ol>
+    <div id="wdb-carousel" class="carousel" data-ride="carousel" data-interval="2000">
       <div class="carousel-inner" role="listbox">
+      <span class="sr-only"><a href="#home-hero">Skip carousel</a></span>
         <div class="item active">
-          <img src="building" alt="...">
+          <img src="/assets/img/carousel2.jpg" alt="Residential block in leafy suburb">
         </div>
         <div class="item">
-          <img src="badge" alt="...">
+          <img src="/assets/img/carousel3.jpg" alt="Small alms cottages">
         </div>
         <div class="item">
-          <img src="building" alt="...">
-        </div>
-        <div class="item">
-          <img src="badge" alt="...">
+          <img src="/assets/img/carousel4.jpg" alt="Town centre shop fronts">
         </div>
         <div class="item ">
-          <img src="building" alt="...">
+          <img src="/assets/img/carousel5.jpg" alt="City centre residential block">
         </div>
         <div class="item">
-          <img src="badge" alt="...">
+          <img src="/assets/img/carousel6.jpg" alt="Property consultants">
         </div>
         <div class="item">
-          <img src="building" alt="...">
+          <img src="/assets/img/carousel7.jpg" alt="Chartered surveyors">
         </div>
         <div class="item">
-          <img src="badge" alt="...">
+          <img src="/assets/img/carousel8.jpg" alt="Managing agents">
+        </div>
+        <div class="item">
+          <img src="/assets/img/carousel9.jpg" alt="City and Central">
+        </div>
+        <div class="item">
+          <img src="/assets/img/carousel9.jpg" alt="All images shown in circles">
+        </div>
+        <div class="item">
+          <img src="/assets/img/carousel1.jpg" alt="blank image - carousel to go round again.">
         </div>
       </div>
       <!-- Controls -->
@@ -56,7 +57,7 @@
 </section>
 <section class="banner olive-banner">
   <div class="container text-center">
-    <h1 class="home-hero">A property consultancy for today</h1>
+    <h1 class="home-hero" id="home-hero">A property consultancy for today</h1>
     <p>A team of Chartered Surveyors and property experts to help with all your professional services, property management, residential &amp; commercial sales and lettings.</p>
     <p>Authorised and Registered with the Financial Services Authority for insurance mediation activities only.</p>
     <div class="home-buttons">

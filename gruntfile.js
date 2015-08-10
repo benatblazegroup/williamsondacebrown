@@ -61,7 +61,7 @@ grunt.initConfig({
     'concat',
     'uglify',
     'sass',
-    //'imagemin',
+  //  'imagemin',
     'cssmin',
     ]);
 
