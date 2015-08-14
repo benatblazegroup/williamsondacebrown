@@ -23,7 +23,6 @@ grunt.initConfig({
       dist: {
          options: {
            style: 'compressed',
-           // sourceMap: true,
          },
          files: {
            'assets/css/wdb-styles.css': 'assets/src/sass/wdb.scss'
@@ -61,7 +60,7 @@ grunt.initConfig({
     'concat',
     'uglify',
     'sass',
-  //  'imagemin',
+    //'imagemin',
     'cssmin',
     ]);
 

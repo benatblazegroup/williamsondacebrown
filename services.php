@@ -34,7 +34,7 @@
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../buildings-insurance.php">
-        <img class="fadeinout" src="../assets/img/Insurance-placeholder-sq.png">
+        <img class="fadeinout" src="../assets/img/insurance-sq.png">
         <h4>Building insurance</h4>
       </a>
     </div>
@@ -43,13 +43,13 @@
     <div class="row feature-row">
     <div class="col-sm-4 feature-box">
       <a href="../professional-services.php">
-        <img class="fadeinout" src="../assets/img/Pro-services-placeholder-sq.png">
+        <img class="fadeinout" src="../assets/img/pro-services-sq.png">
         <h4>Professional services</h4>
       </a>
     </div>
     <div class="col-sm-4 feature-box">
       <a href="../dilapidations-maintenance.php">
-        <img class="fadeinout" src="../assets/img/Dilap-and-maint-placeholder-sq.png">
+        <img class="fadeinout" src="../assets/img/dilap-and-maint-sq.png">
         <h4>Dilapidations and maintenance</h4>
       </a>
     </div>
