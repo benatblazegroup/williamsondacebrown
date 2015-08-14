@@ -9,6 +9,11 @@
   <meta name="description" content="<?php perch_layout_var('desc'); ?>">
   <?php perch_get_css(); ?>
   <?php perch_get_javascript(); ?>
+  <!--[if IE 6]>
+  <script type="text/javascript">
+    
+  </script>
+  <![endif]-->
 </head>
 <body>
 <section class="preheader">

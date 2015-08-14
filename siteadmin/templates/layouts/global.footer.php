@@ -5,7 +5,7 @@
         <h4>About us</h4>
         <p>WDB have been independent property consultants since 1962. We act for over hundred clients and manage over a thousand properties varying from owners of single properties to multi million pound portfolios. </p>
         <a href="about.php" title="about us">Read more <i class="fa fa-chevron-right"></i></a>
-        <img src="/assets/img/rics.svg" alt="Royal Institute of Chartered Surveyors logo">
+        <img src="/assets/img/rics.png" alt="Royal Institute of Chartered Surveyors logo">
       </div>
       <div class="col-sm-4 links">
         <h4>Links</h4>
