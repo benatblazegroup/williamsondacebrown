@@ -5,48 +5,27 @@
 )); ?>
 <section class="banner grey-banner home-banner">
   <div class="container hidden-xs">
-    <div id="wdb-carousel" class="carousel" data-ride="carousel" data-interval="2000">
-      <div class="carousel-inner" role="listbox">
-      <span class="sr-only"><a href="#home-hero">Skip carousel</a></span>
-        <div class="item active">
-          <img src="/assets/img/carousel2.jpg" alt="Residential block in leafy suburb">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel3.jpg" alt="Small alms cottages">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel4.jpg" alt="Town centre shop fronts">
-        </div>
-        <div class="item ">
-          <img src="/assets/img/carousel5.jpg" alt="City centre residential block">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel6.jpg" alt="Property consultants">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel7.jpg" alt="Chartered surveyors">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel8.jpg" alt="Managing agents">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel9.jpg" alt="City and Central">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel9.jpg" alt="All images shown in circles">
-        </div>
-        <div class="item">
-          <img src="/assets/img/carousel1.jpg" alt="blank image - carousel to go round again.">
-        </div>
+    <a href="services.php">
+      <div class="col-sm-3 home-circle" id="one">
+          <img class="bottom" id="five" src="/assets/img/prop-consultants.png" alt="residential block in grounds">
       </div>
-      <!-- Controls -->
-      <a class="left carousel-control" href="#wdb-carousel" role="button" data-slide="prev">
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#wdb-carousel" role="button" data-slide="next">
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3 home-circle" id="two">
+        <img class="bottom" id="six" src="/assets/img/chartered-surveyors.png" alt="old residential house doorways">
+      </div>
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3 home-circle" id="three">
+        <img class="bottom" id="seven" src="/assets/img/managing-agents.png" 
+          alt="row of shops">
+      </div>
+    </a>
+    <a href="services.php">
+      <div class="col-sm-3 home-circle" id="four">
+        <img class="bottom" id="eight" src="/assets/img/city-central.png" alt="City shop premises">
+      </div>
+    </a>
   </div>
   <div class="container visible-xs text-center">
     <h1 class="text-center">Property consultants<br>

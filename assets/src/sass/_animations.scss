@@ -17,3 +17,97 @@ img.fadeinout {
     @include hoverFadeMouseOn;
   }
 }
+@media screen and (min-width:480px) {
+
+    @-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+    @-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+    @keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+    @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .home-banner .container a .col-sm-3 {
+       opacity:0; 
+       -webkit-animation:fadeIn ease-in 1; 
+       -moz-animation:fadeIn ease-in 1;
+       animation:fadeIn ease-in 1;
+
+       -webkit-animation-fill-mode:forwards; 
+       -moz-animation-fill-mode:forwards;
+       animation-fill-mode:forwards;
+
+       -webkit-animation-duration:1s;
+       -moz-animation-duration:1s;
+       animation-duration:1s;
+      
+      }
+
+    .home-banner #one {
+      background:url('/assets/img/propcons.svg') center no-repeat;
+      background-size: 100%;
+
+      -webkit-animation-delay: 0.4s;
+      -moz-animation-delay: 0.4s;
+      animation-delay: 0.4s;
+    }
+    .home-banner #two {
+      background:url('/assets/img/charsurv.svg') center no-repeat;
+      background-size: 100%;
+
+      -webkit-animation-delay: 0.8s;
+      -moz-animation-delay: 0.8s;
+      animation-delay: 0.8s;
+    }
+    .home-banner #three {
+      background:url('/assets/img/manage.svg') center no-repeat;
+      background-size: 100%;
+
+      -webkit-animation-delay: 1.4s;
+      -moz-animation-delay: 1.4s;
+      animation-delay: 1.4s;
+    }
+    .home-banner #four {
+      background:url('/assets/img/citycen.svg') center no-repeat;
+      background-size: 100%;
+
+      -webkit-animation-delay: 1.8s;
+      -moz-animation-delay: 1.8s;
+      animation-delay: 1.8s;
+    }
+    .grey-banner img.bottom {
+     opacity:1;
+     -webkit-animation:fadeOut ease-in 1; 
+     -moz-animation:fadeOut ease-in 1;
+     animation:fadeOut ease-in 1;
+      
+     -webkit-animation-fill-mode:forwards; 
+     -moz-animation-fill-mode:forwards;
+     animation-fill-mode:forwards;
+
+     -webkit-animation-duration:1s;
+     -moz-animation-duration:1s;
+     animation-duration:1s;
+    }
+    .grey-banner img#five {
+    -webkit-animation-delay: 6.8s;
+    -moz-animation-delay: 6.8s;
+    animation-delay: 6.8s;
+    }
+
+    .grey-banner img#six {
+    -webkit-animation-delay: 7.4s;
+    -moz-animation-delay: 7.4s;
+    animation-delay: 7.4s;
+    }
+
+    .grey-banner img#seven {
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    animation-delay: 8s;
+    }
+    .grey-banner img#eight {
+    -webkit-animation-delay: 8.6s;
+    -moz-animation-delay: 8.6s;
+    animation-delay: 8.6s;
+    }
+}
