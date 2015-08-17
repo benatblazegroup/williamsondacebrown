@@ -11,8 +11,11 @@
   <?php perch_get_javascript(); ?>
   <!--[if lt IE 10]>
   <style type="text/css">
-    .home-banner > .container {
-      background:url('/assets/img/wdb-home-gif.gif') no-repeat cover;
+    #animation {
+      background-image: url("http://wdbproperty.co.uk/assets/img/wdb-home-gif.gif");
+      background-size: 100%;
+      height: 279px;
+      background-repeat: no-repeat;
     }
   </style>
   <![endif]-->
