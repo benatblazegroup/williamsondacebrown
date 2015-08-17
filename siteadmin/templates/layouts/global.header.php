@@ -9,10 +9,12 @@
   <meta name="description" content="<?php perch_layout_var('desc'); ?>">
   <?php perch_get_css(); ?>
   <?php perch_get_javascript(); ?>
-  <!--[if IE 6]>
-  <script type="text/javascript">
-    
-  </script>
+  <!--[if lt IE 10]>
+  <style type="text/css">
+    .home-banner > .container {
+      background:url('/assets/img/wdb-home-gif.gif') no-repeat cover;
+    }
+  </style>
   <![endif]-->
 </head>
 <body>

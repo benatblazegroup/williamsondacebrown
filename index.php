@@ -4,7 +4,7 @@
     'desc'=>'Property Consultants, Chartered Surveyors, Managing Agents in the City and Central London',
 )); ?>
 <section class="banner grey-banner home-banner">
-  <div class="container hidden-xs">
+  <div class="container hidden-xs" id="animation">
     <a href="services.php">
       <div class="col-sm-3 home-circle" id="one">
           <img class="bottom" id="five" src="/assets/img/prop-consultants.png" alt="residential block in grounds">
